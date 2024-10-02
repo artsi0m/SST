@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "ATmega328P-P"
-			(at 2.54 -34.29 0)
+			(at 0.635 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -80,6 +80,110 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -55.88) (xy 0 -55.88)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 73.025) (xy 0 -73.025)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13.97 -73.025) (xy 13.97 73.025)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13.97 -38.1) (xy 25.4 -38.1)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13.97 -13.97) (xy 25.4 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.4 3.81) (xy 13.97 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.4 26.67) (xy 13.97 26.67)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 25.4 49.53) (xy 13.97 49.53)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "MCU"
+				(at 6.35 68.58 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
 				)
 			)
 			(pin bidirectional line
@@ -317,7 +421,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -49.53 0)
+				(at -17.78 -50.8 0)
 				(length 5.08)
 				(name "AREF"
 					(effects
