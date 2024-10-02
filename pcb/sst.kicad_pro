@@ -432,7 +432,8 @@
       "Connector_Generic_GOST",
       "SST",
       "Device_GOST",
-      "sst"
+      "sst",
+      "Transistor_FET_GOST"
     ]
   },
   "meta": {
