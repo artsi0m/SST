@@ -299,8 +299,8 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 15.24 0)
-				(length 2.54)
+				(at -17.78 -67.31 0)
+				(length 5.08)
 				(name "AVCC"
 					(effects
 						(font
@@ -317,8 +317,8 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 30.48 0)
-				(length 2.54)
+				(at -17.78 -49.53 0)
+				(length 5.08)
 				(name "AREF"
 					(effects
 						(font
@@ -533,8 +533,8 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 22.86 0)
-				(length 2.54)
+				(at -17.78 -60.96 0)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
