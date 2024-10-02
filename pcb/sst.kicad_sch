@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d486a0a8-b0b2-426a-9635-bf463f56fa2d")
+	(paper "A3")
+	(title_block
+		(title "Система тестирования\\n сервоприводов квадрокоптера")
+		(date "2024-10-02")
+		(comment 1 "467993.013 Э3")
+		(comment 2 "Корякин")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
