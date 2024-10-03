@@ -4550,12 +4550,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "GND"
 				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -4567,7 +4568,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4576,7 +4577,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4585,7 +4586,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global ground gnd"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7439,12 +7440,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 149.86 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -7456,7 +7458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 149.86 172.72 0)
 			(effects
 				(font
@@ -7465,7 +7467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 149.86 172.72 0)
 			(effects
 				(font
@@ -8200,12 +8202,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 73.66 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8217,7 +8220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 93.98 0)
 			(effects
 				(font
@@ -8226,7 +8229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 73.66 93.98 0)
 			(effects
 				(font
@@ -8622,12 +8625,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 200.66 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8639,7 +8643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 196.85 71.12 0)
 			(effects
 				(font
@@ -8648,7 +8652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 196.85 71.12 0)
 			(effects
 				(font
@@ -8965,12 +8969,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 63.5 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8982,7 +8987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 63.5 165.735 0)
 			(effects
 				(font
@@ -8991,7 +8996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 63.5 165.735 0)
 			(effects
 				(font
@@ -9648,12 +9653,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 331.47 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9665,7 +9671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 327.66 74.93 0)
 			(effects
 				(font
@@ -9674,7 +9680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 327.66 74.93 0)
 			(effects
 				(font
@@ -10125,12 +10131,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 356.87 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10142,7 +10149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 356.87 129.54 0)
 			(effects
 				(font
@@ -10151,7 +10158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 356.87 129.54 0)
 			(effects
 				(font
@@ -10191,12 +10198,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 63.5 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10208,7 +10216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 63.5 264.16 0)
 			(effects
 				(font
@@ -10217,7 +10225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 63.5 264.16 0)
 			(effects
 				(font
@@ -10672,12 +10680,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 201.93 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10689,7 +10698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 201.93 222.25 0)
 			(effects
 				(font
@@ -10698,7 +10707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 201.93 222.25 0)
 			(effects
 				(font
@@ -10738,12 +10747,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 160.655 252.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10755,7 +10765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 160.655 248.285 0)
 			(effects
 				(font
@@ -10764,7 +10774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 160.655 248.285 0)
 			(effects
 				(font
