@@ -1379,7 +1379,7 @@
 				(hide yes)
 			)
 		)
-		(property "PIN1" "SDA"
+		(property "PIN1" "1"
 			(at -5.08 15.24 0)
 			(effects
 				(font
@@ -1395,7 +1395,7 @@
 				)
 			)
 		)
-		(property "PIN3" "SCL"
+		(property "PIN3" "3"
 			(at -5.08 5.08 0)
 			(effects
 				(font
@@ -1640,7 +1640,7 @@
 					)
 				)
 			)
-			(text "I^{2}C DISPLAY"
+			(text "Контакты"
 				(at 17.78 20.32 0)
 				(effects
 					(font
@@ -2092,7 +2092,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 33.02) (xy 2.54 -33.02)
+					(xy -2.54 33.02) (xy -2.54 -33.02)
 				)
 				(stroke
 					(width 0)
@@ -2226,8 +2226,8 @@
 					)
 				)
 			)
-			(text "Inputs"
-				(at 9.525 30.48 0)
+			(text "Контакты"
+				(at 6.985 30.48 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -2235,7 +2235,7 @@
 				)
 			)
 			(text "Цепь"
-				(at -5.08 30.48 0)
+				(at -8.255 30.48 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2468,7 +2468,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "X"
-			(at 0 35.56 0)
+			(at 0 -37.465 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2476,7 +2476,7 @@
 			)
 		)
 		(property "Value" "CONN_INPUTS"
-			(at 0 -35.56 0)
+			(at 0 -33.02 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2485,7 +2485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 15.24 35.56 0)
+			(at -15.24 -37.465 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2494,7 +2494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 -35.56 0)
+			(at -15.24 -33.02 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2503,7 +2503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2512,7 @@
 			)
 		)
 		(property "PIN1" "1"
-			(at -5.08 25.4 0)
+			(at 5.08 27.94 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2520,7 +2520,7 @@
 			)
 		)
 		(property "PIN2" "2"
-			(at -5.08 20.32 0)
+			(at 5.08 22.86 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2528,7 +2528,7 @@
 			)
 		)
 		(property "PIN3" "3"
-			(at -5.08 15.24 0)
+			(at 5.08 17.78 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2536,7 +2536,7 @@
 			)
 		)
 		(property "PIN4" "4"
-			(at -5.08 10.16 0)
+			(at 5.08 12.7 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2544,7 +2544,7 @@
 			)
 		)
 		(property "PIN5" "5"
-			(at -5.08 5.08 0)
+			(at 5.08 7.62 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2552,7 +2552,7 @@
 			)
 		)
 		(property "PIN6" "6"
-			(at -5.08 0 0)
+			(at 5.08 2.54 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2560,7 +2560,7 @@
 			)
 		)
 		(property "PIN7" "7"
-			(at -5.08 -5.08 0)
+			(at 5.08 -2.54 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2568,7 +2568,7 @@
 			)
 		)
 		(property "PIN8" "8"
-			(at -5.08 -10.16 0)
+			(at 5.08 -7.62 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2576,7 +2576,7 @@
 			)
 		)
 		(property "PIN9" "9"
-			(at -5.08 -15.24 0)
+			(at 5.08 -12.7 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2584,7 +2584,7 @@
 			)
 		)
 		(property "PIN10" "10"
-			(at -5.08 -20.32 0)
+			(at 5.08 -17.78 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2592,7 +2592,7 @@
 			)
 		)
 		(property "PIN11" "11"
-			(at -5.08 -25.4 0)
+			(at 5.08 -22.86 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2600,7 +2600,7 @@
 			)
 		)
 		(property "PIN12" "12"
-			(at -5.08 -30.48 0)
+			(at 5.08 -27.94 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2618,8 +2618,8 @@
 		)
 		(symbol "CONN_OUTPUTS_0_0"
 			(rectangle
-				(start -15.24 33.02)
-				(end 17.145 -33.02)
+				(start -17.145 -30.48)
+				(end 15.24 35.56)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2630,19 +2630,7 @@
 			)
 			(polyline
 				(pts
-					(xy -15.24 -27.94) (xy 17.145 -27.94)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -15.24 -17.78) (xy 17.145 -17.78)
+					(xy 2.54 35.56) (xy 2.54 -30.48)
 				)
 				(stroke
 					(width 0)
@@ -2654,7 +2642,7 @@
 			)
 			(polyline
 				(pts
-					(xy -15.24 -12.7) (xy 17.145 -12.7)
+					(xy 15.24 -25.4) (xy -17.145 -25.4)
 				)
 				(stroke
 					(width 0)
@@ -2666,7 +2654,7 @@
 			)
 			(polyline
 				(pts
-					(xy -15.24 -7.62) (xy 17.145 -7.62)
+					(xy 15.24 -15.24) (xy -17.145 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -2678,7 +2666,7 @@
 			)
 			(polyline
 				(pts
-					(xy -15.24 -2.54) (xy 17.145 -2.54)
+					(xy 15.24 -10.16) (xy -17.145 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -2690,7 +2678,7 @@
 			)
 			(polyline
 				(pts
-					(xy -15.24 2.54) (xy 17.145 2.54)
+					(xy 15.24 -5.08) (xy -17.145 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -2702,7 +2690,7 @@
 			)
 			(polyline
 				(pts
-					(xy -15.24 12.7) (xy 17.145 12.7)
+					(xy 15.24 0) (xy -17.145 0)
 				)
 				(stroke
 					(width 0)
@@ -2714,7 +2702,7 @@
 			)
 			(polyline
 				(pts
-					(xy -15.24 17.78) (xy 17.145 17.78)
+					(xy 15.24 5.08) (xy -17.145 5.08)
 				)
 				(stroke
 					(width 0)
@@ -2726,7 +2714,7 @@
 			)
 			(polyline
 				(pts
-					(xy -15.24 22.86) (xy 17.145 22.86)
+					(xy 15.24 15.24) (xy -17.145 15.24)
 				)
 				(stroke
 					(width 0)
@@ -2738,7 +2726,7 @@
 			)
 			(polyline
 				(pts
-					(xy -15.24 27.94) (xy 17.145 27.94)
+					(xy 15.24 20.32) (xy -17.145 20.32)
 				)
 				(stroke
 					(width 0)
@@ -2750,7 +2738,19 @@
 			)
 			(polyline
 				(pts
-					(xy 0 33.02) (xy 0 -33.02)
+					(xy 15.24 25.4) (xy -17.145 25.4)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 30.48) (xy -17.145 30.48)
 				)
 				(stroke
 					(width 0)
@@ -2764,7 +2764,7 @@
 		(symbol "CONN_OUTPUTS_1_0"
 			(polyline
 				(pts
-					(xy -15.24 -22.86) (xy 17.145 -22.86)
+					(xy 15.24 -20.32) (xy -17.145 -20.32)
 				)
 				(stroke
 					(width 0)
@@ -2776,7 +2776,7 @@
 			)
 			(polyline
 				(pts
-					(xy -15.24 7.62) (xy 17.145 7.62)
+					(xy 15.24 10.16) (xy -17.145 10.16)
 				)
 				(stroke
 					(width 0)
@@ -2789,7 +2789,7 @@
 		)
 		(symbol "CONN_OUTPUTS_1_1"
 			(text "1"
-				(at 9.906 25.4 0)
+				(at -9.906 27.94 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2797,7 +2797,7 @@
 				)
 			)
 			(text "10"
-				(at 9.906 -20.32 0)
+				(at -9.906 -17.78 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2805,7 +2805,7 @@
 				)
 			)
 			(text "11"
-				(at 9.906 -25.4 0)
+				(at -9.906 -22.86 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2813,7 +2813,7 @@
 				)
 			)
 			(text "12"
-				(at 9.906 -30.48 0)
+				(at -9.906 -27.94 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2821,7 +2821,7 @@
 				)
 			)
 			(text "2"
-				(at 9.906 20.32 0)
+				(at -9.906 22.86 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2829,7 +2829,7 @@
 				)
 			)
 			(text "3"
-				(at 9.906 15.24 0)
+				(at -9.906 17.78 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2837,7 +2837,7 @@
 				)
 			)
 			(text "4"
-				(at 9.906 10.16 0)
+				(at -9.906 12.7 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2845,7 +2845,7 @@
 				)
 			)
 			(text "5"
-				(at 9.906 5.08 0)
+				(at -9.906 7.62 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2853,7 +2853,7 @@
 				)
 			)
 			(text "6"
-				(at 9.906 0 0)
+				(at -9.906 2.54 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2861,7 +2861,7 @@
 				)
 			)
 			(text "7"
-				(at 9.906 -5.08 0)
+				(at -9.906 -2.54 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2869,7 +2869,7 @@
 				)
 			)
 			(text "8"
-				(at 9.906 -10.16 0)
+				(at -9.906 -7.62 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2877,15 +2877,15 @@
 				)
 			)
 			(text "9"
-				(at 9.906 -15.24 0)
+				(at -9.906 -12.7 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
 					)
 				)
 			)
-			(text "Outputs"
-				(at 9.525 30.48 0)
+			(text "Контакты"
+				(at -7.62 33.02 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -2893,7 +2893,7 @@
 				)
 			)
 			(text "Цепь"
-				(at -5.08 30.48 0)
+				(at 8.255 33.02 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2901,7 +2901,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 25.4 180)
+				(at -22.225 27.94 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -2919,7 +2919,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 -20.32 180)
+				(at -22.225 -17.78 0)
 				(length 5.08)
 				(name "10"
 					(effects
@@ -2937,7 +2937,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 -25.4 180)
+				(at -22.225 -22.86 0)
 				(length 5.08)
 				(name "11"
 					(effects
@@ -2955,7 +2955,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 -30.48 180)
+				(at -22.225 -27.94 0)
 				(length 5.08)
 				(name "12"
 					(effects
@@ -2973,7 +2973,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 20.32 180)
+				(at -22.225 22.86 0)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -2991,7 +2991,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 15.24 180)
+				(at -22.225 17.78 0)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -3009,7 +3009,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 10.16 180)
+				(at -22.225 12.7 0)
 				(length 5.08)
 				(name "4"
 					(effects
@@ -3027,7 +3027,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 5.08 180)
+				(at -22.225 7.62 0)
 				(length 5.08)
 				(name "5"
 					(effects
@@ -3045,7 +3045,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 0 180)
+				(at -22.225 2.54 0)
 				(length 5.08)
 				(name "6"
 					(effects
@@ -3063,7 +3063,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 -5.08 180)
+				(at -22.225 -2.54 0)
 				(length 5.08)
 				(name "7"
 					(effects
@@ -3081,7 +3081,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 -10.16 180)
+				(at -22.225 -7.62 0)
 				(length 5.08)
 				(name "8"
 					(effects
@@ -3099,7 +3099,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.225 -15.24 180)
+				(at -22.225 -12.7 0)
 				(length 5.08)
 				(name "9"
 					(effects
@@ -3170,7 +3170,7 @@
 			)
 		)
 		(property "PIN1" "MISO"
-			(at -5.08 10.16 0)
+			(at -10.16 10.16 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -3178,7 +3178,7 @@
 			)
 		)
 		(property "PIN2" "VCC"
-			(at -5.08 5.08 0)
+			(at -10.795 6.35 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -3187,7 +3187,7 @@
 			)
 		)
 		(property "PIN3" "SCK"
-			(at -5.08 0 0)
+			(at -10.795 0 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -3195,7 +3195,7 @@
 			)
 		)
 		(property "PIN4" "MOSI"
-			(at -5.08 -5.08 0)
+			(at -10.16 -5.08 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -3203,7 +3203,7 @@
 			)
 		)
 		(property "PIN5" "RST"
-			(at -5.08 -10.16 0)
+			(at -10.16 -10.16 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -3211,7 +3211,7 @@
 			)
 		)
 		(property "PIN6" "GND"
-			(at -5.08 -15.24 0)
+			(at -10.16 -15.24 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -3302,7 +3302,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 17.78) (xy 5.08 -17.78)
+					(xy -5.08 17.78) (xy -5.08 -17.78)
 				)
 				(stroke
 					(width 0)
@@ -3373,8 +3373,8 @@
 					)
 				)
 			)
-			(text "ISP"
-				(at 8.89 15.24 0)
+			(text "Контакты"
+				(at 5.08 15.24 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -3382,7 +3382,7 @@
 				)
 			)
 			(text "Цепь"
-				(at -5.08 15.24 0)
+				(at -10.16 15.24 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -3499,138 +3499,6 @@
 			)
 		)
 	)
-	(symbol "Earth"
-		(power)
-		(pin_numbers hide)
-		(pin_names
-			(offset 0) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "#PWR"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "global ground gnd"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Earth_0_1"
-			(polyline
-				(pts
-					(xy -0.635 -1.905) (xy 0.635 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.127 -2.54) (xy 0.127 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -1.27) (xy 0 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -1.27) (xy -1.27 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Earth_1_1"
-			(pin power_in line
-				(at 0 0 270)
-				(length 0)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
 	(symbol "GND"
 		(power)
 		(pin_numbers hide)
@@ -3648,7 +3516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" ""
 			(at 0 -3.81 0)
 			(effects
 				(font
