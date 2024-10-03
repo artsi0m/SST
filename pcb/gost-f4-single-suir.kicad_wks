@@ -257,11 +257,12 @@
 	)
 	(tbtext "${TITLE}"
 		(name "text10:Text")
-		(pos 85 27.5)
+		(pos 85 30.04)
 		(option page1only)
 		(font
+			(face "KiCad Font")
 			(linewidth 0.35)
-			(size 3.5 3.5) italic)
+			(size 3.629 3.629) italic)
 		(justify center)
 		(maxlen 67)
 		(maxheight 22)
@@ -560,16 +561,8 @@
 		(option notonpage1)
 		(linewidth 0.6)
 	)
-	(tbtext "Text"
-		(name "")
-		(pos 0 0)
-	)
 	(tbtext "схема электрическая\n принципиальная"
 		(name "")
 		(pos 105.109 20.2222)
-	)
-	(tbtext "Text"
-		(name "")
-		(pos 0 0)
 	)
 )
