@@ -8709,7 +8709,7 @@
 		(dnp no)
 		(uuid "06472a0f-aefb-4a4f-b49c-93090e18fc2e")
 		(property "Reference" "R3"
-			(at 126.365 233.68 0)
+			(at 126.365 236.22 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -8722,6 +8722,7 @@
 				(font
 					(size 2.0066 2.0066)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8858,6 +8859,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -8985,7 +8987,7 @@
 		(dnp no)
 		(uuid "13f1b8b1-e4af-492e-9e58-73f74734f24d")
 		(property "Reference" "R4"
-			(at 152.4 233.68 0)
+			(at 152.4 236.22 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -8998,6 +9000,7 @@
 				(font
 					(size 2.0066 2.0066)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9067,6 +9070,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9271,6 +9275,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9805,7 +9810,7 @@
 		(dnp no)
 		(uuid "42085fd9-1aeb-434f-8c9c-2fd9d7dd273c")
 		(property "Reference" "X5"
-			(at 243.84 31.75 0)
+			(at 239.395 38.735 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -10106,6 +10111,7 @@
 				(font
 					(size 2.0066 2.0066)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10306,6 +10312,7 @@
 				(font
 					(size 2.0066 2.0066)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10706,6 +10713,7 @@
 				(font
 					(size 2.0066 2.0066)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10773,6 +10781,7 @@
 				(font
 					(size 2.0066 2.0066)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10926,6 +10935,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11210,6 +11220,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11329,7 +11340,7 @@
 		(dnp no)
 		(uuid "84954a84-9735-42f5-8d20-cb853cec4fdb")
 		(property "Reference" "R2"
-			(at 104.14 233.68 0)
+			(at 104.14 236.22 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -11342,6 +11353,7 @@
 				(font
 					(size 2.0066 2.0066)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11475,6 +11487,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11610,6 +11623,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11959,6 +11973,7 @@
 				(font
 					(size 2.0066 2.0066)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12029,6 +12044,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
@@ -12240,6 +12256,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12312,6 +12329,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12510,6 +12528,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12974,6 +12993,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -13327,6 +13347,7 @@
 					(size 2.0066 2.0066)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
