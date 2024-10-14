@@ -1886,7 +1886,7 @@
 			)
 		)
 		(property "PIN5" "5"
-			(at -5.08 5.08 0)
+			(at -5.08 -15.24 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -1894,7 +1894,7 @@
 			)
 		)
 		(property "PIN6" "6"
-			(at -5.08 0 0)
+			(at -5.08 -20.32 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -1918,7 +1918,7 @@
 			)
 		)
 		(property "PIN9" "9"
-			(at -5.08 -15.24 0)
+			(at -5.08 5.08 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -1926,7 +1926,7 @@
 			)
 		)
 		(property "PIN10" "10"
-			(at -5.08 -20.32 0)
+			(at -5.08 0 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2139,7 +2139,7 @@
 				)
 			)
 			(text "10"
-				(at 9.906 -20.32 0)
+				(at 9.906 0 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2187,7 +2187,7 @@
 				)
 			)
 			(text "5"
-				(at 9.906 5.08 0)
+				(at 9.906 -15.24 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2195,7 +2195,7 @@
 				)
 			)
 			(text "6"
-				(at 9.906 0 0)
+				(at 9.906 -20.32 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2219,7 +2219,7 @@
 				)
 			)
 			(text "9"
-				(at 9.906 -15.24 0)
+				(at 9.906 5.08 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -3893,6 +3893,78 @@
 		(symbol "HL_LED_0_1"
 			(polyline
 				(pts
+					(xy -12.7 -12.7) (xy -9.9822 -11.176)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -12.7) (xy -7.0612 -7.0612)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.1506 -9.9822) (xy -12.7 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.5664 -14.8082) (xy -7.8486 -13.2842)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.5664 -14.8082) (xy -4.9276 -9.1694)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -9.017 -12.0904) (xy -10.5664 -14.8082)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy -2.9972 2.4892) (xy 2.9972 2.4892)
 				)
 				(stroke
@@ -3906,78 +3978,6 @@
 			(polyline
 				(pts
 					(xy 0 5.08) (xy 0 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.6106 -9.9822) (xy 10.16 -12.7)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 -12.7) (xy 4.5212 -7.0612)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 -12.7) (xy 7.4422 -11.176)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.7442 -7.874) (xy 12.2936 -10.5918)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.2936 -10.5918) (xy 6.6548 -4.953)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.2936 -10.5918) (xy 9.5758 -9.0678)
 				)
 				(stroke
 					(width 0)
