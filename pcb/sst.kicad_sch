@@ -1500,80 +1500,6 @@
 					)
 				)
 			)
-			(symbol "2N7000_2_1"
-				(pin passive line
-					(at 3.81 -7.62 90)
-					(length 3.81)
-					(name "S2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -2.54 0)
-					(length 3.81)
-					(name "G2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 8.89 270)
-					(length 3.81)
-					(name "D2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 8.89 270)
-					(length 3.81)
-					(name "D2"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 2.0066 2.0066)
-							)
-						)
-					)
-				)
-			)
 		)
 		(symbol "sst:ATmega328P-P"
 			(exclude_from_sim no)
@@ -7494,16 +7420,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 279.4) (xy 48.26 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a6c9840-e096-462d-a152-b2e8184d5f3e")
-	)
-	(wire
-		(pts
 			(xy 31.75 229.235) (xy 31.75 234.315)
 		)
 		(stroke
@@ -8274,6 +8190,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 279.4) (xy 48.26 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d19608-4596-4b4a-aeed-5aaaebf67059")
+	)
+	(wire
+		(pts
 			(xy 363.22 36.83) (xy 387.35 36.83)
 		)
 		(stroke
@@ -8977,7 +8903,7 @@
 		(dnp no)
 		(uuid "13cb2052-ad97-4b54-b92b-49b06e7ced5f")
 		(property "Reference" "HL1"
-			(at 370.205 68.58 0)
+			(at 366.395 62.865 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -9803,7 +9729,7 @@
 		(dnp no)
 		(uuid "42085fd9-1aeb-434f-8c9c-2fd9d7dd273c")
 		(property "Reference" "X5"
-			(at 238.125 34.29 0)
+			(at 239.395 38.735 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -13218,15 +13144,6 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "cdd49900-6ab9-4f4b-ba2e-1e281bcb86ea")
-		)
-		(pin "4"
-			(uuid "24a6a35e-68fc-4427-9b96-987a6f68f2e5")
-		)
-		(pin "8"
-			(uuid "d98ae03e-e637-414b-9071-e0ea0d5df17a")
-		)
 		(pin "1"
 			(uuid "005bb0b2-a9b9-459e-927a-5b33def24c9a")
 		)
@@ -13235,9 +13152,6 @@
 		)
 		(pin "6"
 			(uuid "8fb06d90-6324-46b0-98b5-711da91b06f0")
-		)
-		(pin "3"
-			(uuid "7afbe3a4-6cc2-416e-9706-25709d017e83")
 		)
 		(instances
 			(project ""
