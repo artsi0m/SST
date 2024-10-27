@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "sst")(type "KiCad")(uri "${KIPRJMOD}/sst.kicad_sym")(options "")(descr ""))
+  (lib (name "struct")(type "KiCad")(uri "${KIPRJMOD}/struct.kicad_sym")(options "")(descr ""))
 )

@@ -433,7 +433,8 @@
       "SST",
       "Device_GOST",
       "sst",
-      "Transistor_FET_GOST"
+      "Transistor_FET_GOST",
+      "struct"
     ]
   },
   "meta": {
@@ -533,13 +534,97 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN1",
+          "name": "PIN1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN10",
+          "name": "PIN10",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN11",
+          "name": "PIN11",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN12",
+          "name": "PIN12",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN2",
+          "name": "PIN2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN3",
+          "name": "PIN3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN4",
+          "name": "PIN4",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN5",
+          "name": "PIN5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN6",
+          "name": "PIN6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN7",
+          "name": "PIN7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN8",
+          "name": "PIN8",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN9",
+          "name": "PIN9",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Описание",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Обозначение"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 25.0,
     "drawing": {

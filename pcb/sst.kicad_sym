@@ -2437,96 +2437,96 @@
 				(hide yes)
 			)
 		)
-		(property "PIN1" "1"
-			(at 5.08 27.94 0)
+		(property "PIN1" "orange1"
+			(at 9.525 7.62 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
 				)
 			)
 		)
-		(property "PIN2" "2"
-			(at 5.08 22.86 0)
+		(property "PIN2" "orange2"
+			(at 9.906 2.54 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
 				)
 			)
 		)
-		(property "PIN3" "3"
-			(at 5.08 17.78 0)
+		(property "PIN3" "red"
+			(at 5.461 27.305 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
 				)
 			)
 		)
-		(property "PIN4" "4"
-			(at 5.08 12.7 0)
+		(property "PIN4" "red"
+			(at 5.461 22.225 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
 				)
 			)
 		)
-		(property "PIN5" "5"
-			(at 4.826 -12.7 0)
+		(property "PIN5" "brown"
+			(at 8.255 -12.7 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
 				)
 			)
 		)
-		(property "PIN6" "6"
-			(at 4.826 -17.78 0)
+		(property "PIN6" "brown"
+			(at 8.255 -17.78 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
 				)
 			)
 		)
-		(property "PIN7" "7"
-			(at 5.08 -2.54 0)
+		(property "PIN7" "orange3"
+			(at 9.525 -2.54 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
 				)
 			)
 		)
-		(property "PIN8" "8"
-			(at 5.08 -7.62 0)
+		(property "PIN8" "orange4"
+			(at 9.525 -7.62 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
 				)
 			)
 		)
-		(property "PIN9" "9"
-			(at 4.826 7.62 0)
+		(property "PIN9" "red"
+			(at 5.461 17.145 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
 				)
 			)
 		)
-		(property "PIN10" "10"
-			(at 4.826 2.54 0)
+		(property "PIN10" "red"
+			(at 5.461 12.065 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
 				)
 			)
 		)
-		(property "PIN11" "11"
-			(at 5.08 -22.86 0)
+		(property "PIN11" "brown"
+			(at 8.509 -22.86 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
 				)
 			)
 		)
-		(property "PIN12" "12"
-			(at 5.08 -27.94 0)
+		(property "PIN12" "brown"
+			(at 8.509 -27.94 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -2544,8 +2544,8 @@
 		)
 		(symbol "CONN_OUTPUTS_0_0"
 			(rectangle
-				(start -17.145 -30.48)
-				(end 15.24 35.56)
+				(start -17.145 35.56)
+				(end 17.78 -30.48)
 				(stroke
 					(width 0)
 					(type solid)
@@ -2568,7 +2568,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -25.4) (xy -17.145 -25.4)
+					(xy 17.78 -25.4) (xy -17.145 -25.4)
 				)
 				(stroke
 					(width 0)
@@ -2580,7 +2580,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -15.24) (xy -17.145 -15.24)
+					(xy 17.78 -15.24) (xy -17.145 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -2592,7 +2592,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -10.16) (xy -17.145 -10.16)
+					(xy 17.78 -10.16) (xy -17.145 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -2604,7 +2604,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -5.08) (xy -17.145 -5.08)
+					(xy 17.78 -5.08) (xy -17.145 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -2616,7 +2616,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 0) (xy -17.145 0)
+					(xy 17.78 0) (xy -17.145 0)
 				)
 				(stroke
 					(width 0)
@@ -2628,7 +2628,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 5.08) (xy -17.145 5.08)
+					(xy 17.78 5.08) (xy -17.145 5.08)
 				)
 				(stroke
 					(width 0)
@@ -2640,7 +2640,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 15.24) (xy -17.145 15.24)
+					(xy 17.78 15.24) (xy -17.145 15.24)
 				)
 				(stroke
 					(width 0)
@@ -2652,7 +2652,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 20.32) (xy -17.145 20.32)
+					(xy 17.78 20.32) (xy -17.145 20.32)
 				)
 				(stroke
 					(width 0)
@@ -2664,7 +2664,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 25.4) (xy -17.145 25.4)
+					(xy 17.78 25.4) (xy -17.145 25.4)
 				)
 				(stroke
 					(width 0)
@@ -2676,7 +2676,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 30.48) (xy -17.145 30.48)
+					(xy 17.78 30.48) (xy -17.145 30.48)
 				)
 				(stroke
 					(width 0)
@@ -2690,7 +2690,7 @@
 		(symbol "CONN_OUTPUTS_1_0"
 			(polyline
 				(pts
-					(xy 15.24 -20.32) (xy -17.145 -20.32)
+					(xy 17.78 -20.32) (xy -17.145 -20.32)
 				)
 				(stroke
 					(width 0)
@@ -2702,7 +2702,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 10.16) (xy -17.145 10.16)
+					(xy 17.78 10.16) (xy -17.145 10.16)
 				)
 				(stroke
 					(width 0)
@@ -2715,7 +2715,7 @@
 		)
 		(symbol "CONN_OUTPUTS_1_1"
 			(text "1"
-				(at -9.906 27.94 0)
+				(at -9.525 7.62 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2723,7 +2723,7 @@
 				)
 			)
 			(text "10"
-				(at -10.16 2.54 0)
+				(at -9.525 12.065 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2747,7 +2747,7 @@
 				)
 			)
 			(text "2"
-				(at -9.906 22.86 0)
+				(at -9.525 2.54 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2755,7 +2755,7 @@
 				)
 			)
 			(text "3"
-				(at -9.906 17.78 0)
+				(at -9.525 27.305 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2763,7 +2763,7 @@
 				)
 			)
 			(text "4"
-				(at -9.906 12.7 0)
+				(at -9.525 22.225 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -2803,7 +2803,7 @@
 				)
 			)
 			(text "9"
-				(at -10.16 7.62 0)
+				(at -9.525 17.145 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
@@ -3686,30 +3686,6 @@
 		(symbol "GND_0_1"
 			(polyline
 				(pts
-					(xy -0.635 -1.905) (xy 0.635 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.127 -2.54) (xy 0.127 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0 -1.27) (xy 0 0)
 				)
 				(stroke
@@ -3722,7 +3698,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy -1.27 -1.27)
+					(xy 1.27 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -3734,6 +3710,19 @@
 			)
 		)
 		(symbol "GND_1_1"
+			(rectangle
+				(start -1.27 -1.27)
+				(end 1.27 -1.905)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 1)
+				)
+			)
 			(pin power_in line
 				(at 0 0 270)
 				(length 0)
