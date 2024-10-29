@@ -445,28 +445,61 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.8128,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8128,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048,
         "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "/<NO NET>": "rgb(255, 2, 0)",
+      "/SCL": "rgb(255, 0, 101)"
+    },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PWR",
+        "pattern": "\\+5V"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "\\+2V5"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -480,7 +513,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "gost-f4-single-suir.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -653,7 +686,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "page_layout_descr_file": "gost-f4-single-suir.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,

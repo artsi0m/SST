@@ -1491,7 +1491,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "3"
 						(effects
 							(font
 								(size 2.0066 2.0066)
@@ -5103,7 +5103,7 @@
 				)
 			)
 			(property "Value" "LM385BZ-2.5"
-				(at 6.35 -6.35 0)
+				(at 5.715 -6.985 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5196,6 +5196,24 @@
 				)
 			)
 			(symbol "LM385BZ-2.5_1_1"
+				(pin passive line
+					(at 7.62 5.715 270)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 13.335 0 180)
 					(length 5.08)
@@ -6044,6 +6062,12 @@
 		(uuid "c0e66461-0026-4910-bdca-76046e4ac835")
 	)
 	(junction
+		(at 344.805 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cadc5cf3-9669-4e1c-a760-33ca4083323e")
+	)
+	(junction
 		(at 67.945 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6779,6 +6803,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 207.645) (xy 331.47 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46be4c0c-b091-463f-9c23-af4f6b044c17")
+	)
+	(wire
+		(pts
 			(xy 149.225 81.28) (xy 153.035 81.28)
 		)
 		(stroke
@@ -7479,6 +7513,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.805 217.17) (xy 344.805 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec4e551-7864-4f25-a404-1e526909947e")
+	)
+	(wire
+		(pts
 			(xy 25.4 109.855) (xy 26.67 109.855)
 		)
 		(stroke
@@ -7819,7 +7863,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.805 215.265) (xy 344.805 221.615)
+			(xy 344.805 215.265) (xy 344.805 217.17)
 		)
 		(stroke
 			(width 0)
@@ -8046,6 +8090,16 @@
 			(type default)
 		)
 		(uuid "bee5c408-a712-4929-89b7-b4efb4b5fca5")
+	)
+	(wire
+		(pts
+			(xy 331.47 217.17) (xy 344.805 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4639b9-db2c-43e7-abaa-e1cdbc7107e6")
 	)
 	(wire
 		(pts
@@ -8439,6 +8493,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 207.645) (xy 331.47 207.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a63006-1221-45e1-85bd-d603bab10068")
+	)
+	(wire
+		(pts
 			(xy 67.945 86.36) (xy 67.945 88.9)
 		)
 		(stroke
@@ -8760,7 +8824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 134.62 240.665 0)
 			(effects
 				(font
@@ -8812,7 +8876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ec4ba74-f7fe-4684-aa34-ca5ccc8ba108")
-		(property "Reference" "#PWR24"
+		(property "Reference" "#PWR024"
 			(at 344.805 227.965 0)
 			(effects
 				(font
@@ -8863,7 +8927,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR24")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8897,7 +8961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_TT_P0915N"
 			(at 208.28 207.645 0)
 			(effects
 				(font
@@ -8970,7 +9034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 363.22 74.8792 0)
 			(effects
 				(font
@@ -9038,7 +9102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 160.655 240.665 0)
 			(effects
 				(font
@@ -9108,7 +9172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_TT_P0915N"
 			(at 182.88 207.645 0)
 			(effects
 				(font
@@ -9313,7 +9377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_TT_P0915N"
 			(at 233.68 207.645 0)
 			(effects
 				(font
@@ -9434,7 +9498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26489468-75fa-443a-ac50-30aa754c29f8")
-		(property "Reference" "#PWR15"
+		(property "Reference" "#PWR015"
 			(at 205.74 172.085 0)
 			(effects
 				(font
@@ -9485,7 +9549,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR15")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9519,7 +9583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 31.75 192.9892 0)
 			(effects
 				(font
@@ -9587,7 +9651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal"
 			(at 229.235 177.8 0)
 			(effects
 				(font
@@ -9781,7 +9845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x04_P1.27mm_Vertical"
 			(at 243.84 36.83 0)
 			(effects
 				(font
@@ -9933,7 +9997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 384.81 60.96 0)
 			(effects
 				(font
@@ -10069,7 +10133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 41.91 232.41 0)
 			(effects
 				(font
@@ -10187,7 +10251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f816d27-b77b-486f-a2a3-7076736ad6a8")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR02"
 			(at 29.21 246.38 0)
 			(effects
 				(font
@@ -10238,7 +10302,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10270,7 +10334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm"
 			(at 187.325 81.915 0)
 			(effects
 				(font
@@ -10322,7 +10386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62f8cc88-5762-4cd5-a110-83e022620569")
-		(property "Reference" "#PWR14"
+		(property "Reference" "#PWR014"
 			(at 207.645 71.12 0)
 			(effects
 				(font
@@ -10373,7 +10437,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR14")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10407,7 +10471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 297.815 166.4208 0)
 			(effects
 				(font
@@ -10671,7 +10735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm"
 			(at 41.91 246.38 0)
 			(effects
 				(font
@@ -10739,7 +10803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 33.02 109.22 0)
 			(effects
 				(font
@@ -10791,7 +10855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f29601-4466-499c-bd23-64bcb7c5242a")
-		(property "Reference" "#PWR7"
+		(property "Reference" "#PWR07"
 			(at 67.945 107.95 0)
 			(effects
 				(font
@@ -10842,7 +10906,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR7")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10874,7 +10938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_SwitchcraftConxall_RAPC10U_Horizontal"
 			(at 56.515 160.655 0)
 			(effects
 				(font
@@ -10960,7 +11024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
 			(at 29.845 219.71 0)
 			(effects
 				(font
@@ -11020,7 +11084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SA_DPDT"
 			(at 59.69 267.335 90)
 			(effects
 				(font
@@ -11029,7 +11093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011AQN_DPDT_Angled"
 			(at 45.72 260.985 0)
 			(effects
 				(font
@@ -11093,7 +11157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd5e664-6000-4cde-9b5c-3b29802d6c78")
-		(property "Reference" "#PWR4"
+		(property "Reference" "#PWR04"
 			(at 63.5 164.465 0)
 			(effects
 				(font
@@ -11144,7 +11208,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR4")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11179,7 +11243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 297.18 143.51 0)
 			(effects
 				(font
@@ -11312,7 +11376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 112.395 240.665 0)
 			(effects
 				(font
@@ -11446,7 +11510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 276.225 35.56 0)
 			(effects
 				(font
@@ -11582,7 +11646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 344.17 175.26 0)
 			(effects
 				(font
@@ -11652,7 +11716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 			(at 391.795 77.47 90)
 			(effects
 				(font
@@ -11777,12 +11841,13 @@
 				)
 			)
 		)
-		(property "Value" "ATmega328P-P"
+		(property "Value" "Микроконтроллер ATmega328P-P"
 			(at 116.205 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
@@ -11932,7 +11997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm"
 			(at 161.925 62.865 0)
 			(effects
 				(font
@@ -12000,7 +12065,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
@@ -12035,8 +12099,11 @@
 		(pin "2"
 			(uuid "2813b968-9d0b-40f5-adb4-a709103a13b1")
 		)
-		(pin "3"
+		(pin "1"
 			(uuid "f287acb0-c6fe-4862-9ddd-59cc8d47b630")
+		)
+		(pin "3"
+			(uuid "399015cf-3c6a-409e-b2d8-4388c1753686")
 		)
 		(instances
 			(project ""
@@ -12130,7 +12197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a678dde9-54e3-4ea3-8d28-a803dc09f083")
-		(property "Reference" "#PWR22"
+		(property "Reference" "#PWR022"
 			(at 340.36 74.295 0)
 			(effects
 				(font
@@ -12181,7 +12248,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR22")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12215,7 +12282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_TT_P0915N"
 			(at 259.08 207.645 0)
 			(effects
 				(font
@@ -12288,7 +12355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 154.305 77.47 0)
 			(effects
 				(font
@@ -12356,7 +12423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Horizontal"
 			(at 58.42 116.84 0)
 			(effects
 				(font
@@ -12487,7 +12554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 362.585 50.8 0)
 			(effects
 				(font
@@ -12539,7 +12606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab6b303b-0e49-40c7-89ea-d5ec72879315")
-		(property "Reference" "#PWR26"
+		(property "Reference" "#PWR026"
 			(at 356.87 135.89 0)
 			(effects
 				(font
@@ -12590,7 +12657,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR26")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -12606,7 +12673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baed243e-0061-4e24-bbf5-e0729d7bf943")
-		(property "Reference" "#PWR20"
+		(property "Reference" "#PWR020"
 			(at 297.815 189.865 0)
 			(effects
 				(font
@@ -12657,7 +12724,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR20")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12689,7 +12756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 332.105 95.885 0)
 			(effects
 				(font
@@ -12741,7 +12808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bebcd6e5-15b9-42ca-a4db-30dffe0308fe")
-		(property "Reference" "#PWR5"
+		(property "Reference" "#PWR05"
 			(at 63.5 270.51 0)
 			(effects
 				(font
@@ -12792,7 +12859,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR5")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12824,7 +12891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal"
 			(at 54.61 27.94 0)
 			(effects
 				(font
@@ -13020,7 +13087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 290.195 44.45 0)
 			(effects
 				(font
@@ -13254,7 +13321,7 @@
 		(pin "2"
 			(uuid "f1fedcdc-3295-4115-8b4f-02c822ded364")
 		)
-		(pin "6"
+		(pin "3"
 			(uuid "8fb06d90-6324-46b0-98b5-711da91b06f0")
 		)
 		(instances
@@ -13276,7 +13343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf972b43-ef2a-41f7-b295-db4b559af514")
-		(property "Reference" "#PWR16"
+		(property "Reference" "#PWR016"
 			(at 208.915 243.205 0)
 			(effects
 				(font
@@ -13327,7 +13394,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR16")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -13343,7 +13410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5b67320-9079-4b35-a480-acc6b5f96d11")
-		(property "Reference" "#PWR12"
+		(property "Reference" "#PWR012"
 			(at 172.085 254.635 0)
 			(effects
 				(font
@@ -13394,7 +13461,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR12")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13428,7 +13495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 348.615 121.92 0)
 			(effects
 				(font
