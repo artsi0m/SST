@@ -482,8 +482,12 @@
       "version": 3
     },
     "net_colors": {
-      "/<NO NET>": "rgb(255, 2, 0)",
-      "/SCL": "rgb(255, 0, 101)"
+      "+2V5": "rgb(194, 0, 0)",
+      "+5V": "rgb(255, 0, 0)",
+      "/<NO NET>": "rgb(255, 255, 0)",
+      "/SCL": "rgb(0, 255, 245)",
+      "/SDA": "rgb(0, 255, 245)",
+      "GND": "rgb(221, 133, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
