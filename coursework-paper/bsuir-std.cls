@@ -127,6 +127,7 @@
 {\normalfont\normalsize\bfseries}{\thesubsubsection}{0.4em}{}
 
 
+\numberwithin{equation}{section}
 
 
 %%%%%%%%%%%%%%%%%%%
