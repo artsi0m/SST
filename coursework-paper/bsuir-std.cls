@@ -5,7 +5,7 @@
 %%% End:
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{bsuir-std}[2024/10/30 Class conforming to BSUIR standard]
+\ProvidesClass{bsuir-std}[2024/11/22 Class conforming to BSUIR standard]
 
 
 \LoadClass[a4paper,14pt]{extarticle}
@@ -48,6 +48,7 @@
 
 \RequirePackage{setspace}
 
+\RequirePackage{caption}
 %%%%%%%
 % СТП %
 %%%%%%%
@@ -126,8 +127,12 @@
 \titleformat{\subsubsection}
 {\normalfont\normalsize\bfseries}{\thesubsubsection}{0.4em}{}
 
-
 \numberwithin{equation}{section}
+
+% Нумерация и подписи к рисункам
+\captionsetup[figure]{name={Рисунок},}
+\numberwithin{figure}{section}
+
 
 
 %%%%%%%%%%%%%%%%%%%
