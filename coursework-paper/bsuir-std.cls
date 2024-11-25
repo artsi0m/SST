@@ -84,7 +84,7 @@
   label = \arabic* , % Поставить номер без точки
   nosep,   % У списков по СТП такой межстрочный интервал
   itemindent = 15mm,
-  labelindent = 10mm,
+  labelindent = 12.5mm,
   leftmargin = *,
 }
 
