@@ -100,7 +100,7 @@
 \setlist[itemize, 1]{ % Первый уровень в нумерованных перечислениях
   label = \textendash,
   nosep,   % У списков по СТП такой межстрочный интервал
-  labelindent = \parindent,
+  labelindent = 12.5mm,
   leftmargin = *,
 }
 
