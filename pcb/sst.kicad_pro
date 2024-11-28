@@ -514,7 +514,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "edge-cuts/",
       "vrml": ""
     },
     "page_layout_descr_file": "gost-f4-single-suir.kicad_wks"
