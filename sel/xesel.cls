@@ -22,7 +22,7 @@
 \ProvidesClass{xesel}[2014/12/26 v1.0 Schematic Elements Listing]
 
 % only xelatex (cyrillic strings)
-\RequirePackage{ifxetex}
+\RequirePackage{iftex}
 \RequireXeTeX
 
 % setup base class
@@ -233,7 +233,7 @@
 }%
 
 \pagestyle{empty}
-\tabcolsep=1mm
+\tabcolsep=1.5mm
 \renewcommand*{\arraystretch}{1.0}
 \setlength{\extrarowheight}{0mm}
 
