@@ -8815,7 +8815,7 @@
 				)
 			)
 		)
-		(property "Value" "резистор 10к 0,25Вт"
+		(property "Value" "10к 0,25Вт"
 			(at 145.415 236.22 0)
 			(effects
 				(font
@@ -9093,7 +9093,7 @@
 				)
 			)
 		)
-		(property "Value" "резистор 10к 0,25Вт"
+		(property "Value" "10к 0,25Вт"
 			(at 171.45 236.22 0)
 			(effects
 				(font
@@ -9162,7 +9162,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "потенциометр 10к 0,25Вт"
+		(property "Value" "10к 0,25Вт"
 			(at 187.325 202.565 90)
 			(effects
 				(font
@@ -10124,7 +10124,7 @@
 				)
 			)
 		)
-		(property "Value" "10мк"
+		(property "Value" "10мк 16В"
 			(at 50.165 230.505 90)
 			(effects
 				(font
@@ -10794,7 +10794,7 @@
 				)
 			)
 		)
-		(property "Value" "резистор 10к 0,25Вт"
+		(property "Value" "10к 0,25Вт"
 			(at 44.45 106.68 0)
 			(effects
 				(font
@@ -11233,7 +11233,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "резистор 22 0,25Вт"
+		(property "Value" "22 0,25Вт"
 			(at 300.99 142.875 90)
 			(effects
 				(font
@@ -11367,7 +11367,7 @@
 				)
 			)
 		)
-		(property "Value" "резистор 10к 0,25Вт"
+		(property "Value" "10к 0,25Вт"
 			(at 123.19 236.22 0)
 			(effects
 				(font
@@ -11500,7 +11500,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "резистор 10к 0,25Вт"
+		(property "Value" "10к 0,25Вт"
 			(at 280.67 31.115 90)
 			(effects
 				(font
@@ -13077,7 +13077,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "резистор 10к 0,25Вт"
+		(property "Value" "10к 0,25Вт"
 			(at 294.64 40.005 90)
 			(effects
 				(font
