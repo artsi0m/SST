@@ -386,7 +386,7 @@
 			(at -12.7 74.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 				)
 				(justify left bottom)
 			)
@@ -3972,10 +3972,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VD"
-			(at 9.525 4.445 0)
+			(at 14.732 5.842 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 				)
 			)
 		)
@@ -3983,7 +3983,7 @@
 			(at 5.715 -6.985 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 				)
 			)
 		)
@@ -4076,7 +4076,7 @@
 			(pin passive line
 				(at 7.62 5.715 270)
 				(length 5.08)
-				(name ""
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4594,7 +4594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Vbat"
+		(property "Value" "V_{bat}"
 			(at 0 5.08 0)
 			(effects
 				(font
