@@ -1,0 +1,8 @@
+* super servo tester — monorepo for pcb, coursework and bachelor thesis
+
+https://www.elektormagazine.com/labs/super-servo-tester
+
+** file structure
+
+| [[file:coursework-paper/]] | coursework in xelatex |
+
