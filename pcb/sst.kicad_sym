@@ -4577,7 +4577,7 @@
 			)
 		)
 	)
-	(symbol "Vbat"
+	(symbol "Ubat"
 		(power)
 		(pin_numbers hide)
 		(pin_names
@@ -4594,7 +4594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_{bat}"
+		(property "Value" "U_{bat}"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -4638,7 +4638,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Vbat_0_1"
+		(symbol "Ubat_0_1"
 			(polyline
 				(pts
 					(xy -0.762 1.27) (xy 0 2.54)
@@ -4676,7 +4676,7 @@
 				)
 			)
 		)
-		(symbol "Vbat_1_1"
+		(symbol "Ubat_1_1"
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
