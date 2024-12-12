@@ -3,6 +3,11 @@
 https://www.elektormagazine.com/labs/super-servo-tester
 
 ** file structure
-
-| [[file:coursework-paper/]] | coursework in xelatex |
-
+| [[file:pcb/]]                                       | Плата из KiCAD, топология и схема Э3 и Э1      |
+| [[file:coursework-paper/]]                          | Пояснительная записка                          |
+| [[file:coursework-paper/Karakin7semCoursework.bib]] | Библиография                                   |
+| [[file:coursework-paper/main.tex]]                  | Входная точка для сборки пояснительной записки |
+| [[file:coursework-paper/bsuir-std.cls]]             | Латех класс для соответвия стандарту СТП       |
+| [[file:sel/]]                                       | Перечень элементов, ПЭ3                        |
+| [[file:sel/xesel.cls]]                              | Чужой латех класс для перечня                  |
+| [[file:terms-of-reference/]]                        | Техническое Задание                            |
