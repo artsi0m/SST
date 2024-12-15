@@ -28,7 +28,7 @@
 | SA1, SA2     |          2 |  16.3 |   14.9 |   485.74 |           |
 | VD1 (DO-41)  |          1 | 54.86 |   2.72 | 149.2192 |           |
 | VD2 (DO-35)  |          1 | 54.40 |      2 |    108.8 |           |
-| VD3 (TO-92)  |          1 |  3.70 |   4.70 |    17.39 |           |
+| VD3 (TO-92)  |          1 |  3.70 |   4.70 |    17.39  |           |
 | X1, X5       |          2 |  16.3 |   14.9 |   485.74 |           |
 | X3           |          1 |   6.6 |    4.6 |    30.36 |           |
 | X4           |          1 |   6.1 |   4.05 |   24.705 |           |
@@ -106,3 +106,107 @@ https://eu.mouser.com/c/electromechanical
 
 #+RESULTS:
 : 3367.5
+** 4.2
+*** Поверхность корпуса блока и нагртой зоны
+|   l1 | l2 | l3 (высота) |     Sk |  Kz |   |
+| 84.5 | 85 |          32 | 19789. | 0.8 |   |
+#+TBLFM: @2$4=$1 * $2 * 2 + $3*($1+$2)
+*** Условная поверхность нагретой зоны
+|   l1 | l2 | l3 (высота) |      Sz |  Kz |   |
+| 84.5 | 85 |          32 | 18704.2 | 0.8 |   |
+#+TBLFM: @2$4=$1 * $2 * 2 + $3*($1+$2) * 0.8
+*** Удельная мощность корпуса по блоку
+q_k
+#+begin_src elisp
+  (/ 12 0.019790) ;;м2
+#+end_src
+
+#+RESULTS:
+: 606.366851945427
+
+**** Транзистор, мощность
+#+begin_src elisp
+  (* 60 0.2)
+#+end_src
+
+#+RESULTS:
+: 12.0
+
+*** Удельная мощность нагретой зоны
+#+begin_src elisp
+  (/ 12 0.018704) ;;м2
+#+end_src
+
+#+RESULTS:
+: 641.5739948674081
+
+*** vartheta1
+
+#+begin_src python
+  q_k = 606
+  vartheta_1 = 0.1472 * q_k  - 0.2962 * 10 ** -3 * q_k ** 2 + 0.3127 * 10 ** -6 * q_k ** 2
+  return vartheta_1
+#+end_src
+
+#+RESULTS:
+: -19.457268502800016
+
+*** vartheta2
+
+#+begin_src python
+  q_k = 606
+  vartheta_2 =  0.1390 * q_k - 0.1223 * 10 ** -3 * q_k ** 2 + 0.0698 * 10 ** -6 * q_k ** 3
+  return vartheta_2
+#+end_src
+
+#+RESULTS:
+: 54.8546793168
+
+*** vartheta_k
+#+begin_src python
+  vartheta_k = -19.46 * 0.999
+  return vartheta_k
+#+end_src
+
+#+RESULTS:
+: -19.440540000000002
+
+*** vartheta_z
+#+begin_src python :session t
+  vartheta_k = 0
+  vartheta_2 = 54.85
+  vartheta_1 = -19.6
+  vartheta_z = vartheta_k + (vartheta_2 - vartheta_1 ) * 0.996
+  return vartheta_z
+#+end_src
+
+#+RESULTS:
+
+*** vartheta_v
+#+begin_src python
+  theta_k = 0
+  theta_2 = 54.85
+  theta_1 = -19.6
+  theta_z = theta_k + (theta_2 - theta_1 ) * 0.996
+  theta_v = 0.5 * (theta_k + theta_z)
+
+#+end_src
+
+*** q_el
+#+begin_src python
+  s = 1.7 * 10 ** -5
+  P = 12
+  return P / s
+#+end_src
+
+#+RESULTS:
+: 705882.3529411765
+
+*** theta_el
+#+begin_src python :session t :results output
+  theta_z = theta_k + (theta_2 - theta_1 ) * 0.996
+  return theta_z
+  print(theta_z)
+#+end_src
+
+#+RESULTS:
