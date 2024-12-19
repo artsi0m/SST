@@ -5,7 +5,7 @@
 %%% End:
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{bsuir-std}[2024/11/22 Class conforming to BSUIR standard]
+\ProvidesClass{bsuir-std}[2024/12/16 Class conforming to BSUIR standard]
 
 
 \LoadClass[a4paper,14pt]{extarticle}
@@ -49,6 +49,9 @@
 \RequirePackage{setspace}
 
 \RequirePackage{caption}
+
+\RequirePackage{lscape} % for rotated tables
+\RequirePackage{rotating}
 %%%%%%%
 % СТП %
 %%%%%%%
@@ -132,7 +135,6 @@
 % Нумерация и подписи к рисункам
 \captionsetup[figure]{name={Рисунок},}
 \numberwithin{figure}{section}
-
 
 
 %%%%%%%%%%%%%%%%%%%
