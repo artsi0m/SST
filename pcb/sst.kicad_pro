@@ -209,7 +209,15 @@
       "mpn": ""
     },
     "layer_presets": [],
-    "viewports": []
+    "viewports": [
+      {
+        "h": 162366453.58087015,
+        "name": "all",
+        "w": 296881727.16794145,
+        "x": -19685263.583952382,
+        "y": 55981173.20957399
+      }
+    ]
   },
   "boards": [],
   "cvpcb": {
@@ -513,7 +521,7 @@
       "plot": "build/dxf/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "build/sst-kicad-export.step",
       "svg": "edge-cuts/",
       "vrml": ""
     },
