@@ -1,5 +1,11 @@
+%%% Local Variables:
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex
+%%% End:
+
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{bsuir-std}[2024/10/26 Class for BSUIR tor]
+\ProvidesClass{bsuir-std}[2024/12/16 Class conforming to BSUIR standard]
 
 
 \LoadClass[a4paper,14pt]{extarticle}
@@ -42,6 +48,10 @@
 
 \RequirePackage{setspace}
 
+\RequirePackage{caption}
+
+\RequirePackage{lscape} % for rotated tables
+\RequirePackage{rotating}
 %%%%%%%
 % СТП %
 %%%%%%%
@@ -72,18 +82,19 @@
 % «абзацный отступ – 1,25 см»
 \setlength{\parindent}{12.5mm}
 
+
 \setlist[enumerate, 1]{
-  label = \arabic*.\arabic* , % Поставить номер без точки
+  label = \arabic* , % Поставить номер без точки
   nosep,   % У списков по СТП такой межстрочный интервал
-  listparindent = \parindent,
-  itemindent =!,
-  leftmargin = -\parindent,
+  itemindent = 15mm,
+  labelindent = 12.5mm,
+  leftmargin = *,
 }
 
 \AddEnumerateCounter{\asbuk}{\russian@asbuk@alph}{щ} % section 8.1
 
 \setlist[enumerate, 2]{ % Второй уровень в нумерованных перечислениях
-  label = \arabic*.\arabic*.\arabic* ,
+  label = \asbuk*) ,
   nosep,   % У списков по СТП такой межстрочный интервал
   labelindent = \parindent,
   leftmargin = *,
@@ -92,7 +103,7 @@
 \setlist[itemize, 1]{ % Первый уровень в нумерованных перечислениях
   label = \textendash,
   nosep,   % У списков по СТП такой межстрочный интервал
-  labelindent = \parindent,
+  labelindent = 12.5mm,
   leftmargin = *,
 }
 
@@ -107,20 +118,24 @@
 % https://tex.stackexchange.com/a/324041
 % https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/titlesec/titlesec.pdf
 \titleformat{\section}[block]
-{\normalfont\Large}{\thesection}{0.4em}{\MakeUppercase}
+{\normalfont\Large\bfseries}{\thesection}{0.4em}{\MakeUppercase}
 
 \titleformat{name=\section,numberless}[block]
-{\normalfont\Large}{}{0.4em \centering}{\MakeUppercase}
+{\normalfont\Large\bfseries}{}{0.4em \centering}{\MakeUppercase}
 
-\titleformat{\subsection}[runin]
-{\normalfont}{\thesubsection}{0.4em}{}[ \  ] % Пробел после заголовка
 
-\titleformat{\subsubsection}[runin] % начало текста на той же строке
-{\normalfont}{\thesubsubsection}{0.4em}{}[ \  ] % Пробел после заголовка
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{0.4em}{}
 
-% абзац
-\titlespacing*{\subsection}{12.5mm}{*0}{*0}
-\titlespacing*{\subsubsection}{12.5mm}{*0}{*0}
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}{\thesubsubsection}{0.4em}{}
+
+\numberwithin{equation}{section}
+
+% Нумерация и подписи к рисункам
+\captionsetup[figure]{name={Рисунок},}
+\numberwithin{figure}{section}
+
 
 %%%%%%%%%%%%%%%%%%%
 % ifxetex section %
@@ -159,8 +174,3 @@
 
 \fi
 
-%%% Local Variables:
-%%% coding: utf-8
-%%% mode: latex
-%%% TeX-engine: xetex
-%%% End:
