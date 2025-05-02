@@ -6,9 +6,12 @@
 	(paper "A2")
 	(title_block
 		(title "Автоматическая система управления")
-		(date "2025-03-23")
-		(comment 1 "46832.013 Э3")
+		(date "2025-05-02")
+		(comment 1 "467993.013 Э1")
 		(comment 2 "Корякин")
+		(comment 3 "Колбун")
+		(comment 4 "Алексеев")
+		(comment 6 "Ефремова")
 	)
 	(lib_symbols
 		(symbol "struct:struct_MCU"
@@ -98,100 +101,6 @@
 				)
 				(pin unspecified line
 					(at 88.9 12.7 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "struct:struct_ZQ"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 5.08 36.83 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "struct_ZQ_1_1"
-				(text_box "Кристалл для тактирования микроконтроллера"
-					(at 0 32.385 0)
-					(size 74.93 -32.385)
-					(margins 4.064 4.064 4.064 4.064)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-					(effects
-						(font
-							(size 5.08 5.08)
-						)
-						(justify top)
-					)
-				)
-				(pin unspecified line
-					(at 77.47 16.51 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1411,7 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 130.81) (xy 144.78 130.81)
+			(xy 271.78 76.835) (xy 144.78 76.835)
 		)
 		(stroke
 			(width 0)
@@ -1441,16 +1350,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 68.58) (xy 308.61 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ee35790-300c-4c70-ade7-0deb4803b4ed")
-	)
-	(wire
-		(pts
 			(xy 180.975 377.19) (xy 307.34 377.19)
 		)
 		(stroke
@@ -1458,16 +1357,6 @@
 			(type default)
 		)
 		(uuid "63e4ebfb-ea70-4675-8d6f-719ec0f4f9b7")
-	)
-	(wire
-		(pts
-			(xy 308.61 68.58) (xy 308.61 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d4c2a26-4657-433c-b10d-258e9ae952ab")
 	)
 	(wire
 		(pts
@@ -1521,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 130.81) (xy 271.78 151.13)
+			(xy 271.78 76.835) (xy 271.78 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2703,74 +2592,6 @@
 		)
 	)
 	(symbol
-		(lib_id "struct:struct_arrow")
-		(at 308.61 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "857235a6-a8ca-40e9-8aef-22181b161b95")
-		(property "Reference" "D?"
-			(at 313.69 158.1149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 313.69 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 308.61 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "98585b80-db9a-4292-acec-0fc530092472")
-		)
-		(instances
-			(project ""
-				(path "/ad8e3e9a-beb1-43ec-b57c-1a0280baf6c5"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "struct:struct_supply_voltage")
 		(at 76.2 358.775 0)
 		(unit 1)
@@ -3241,74 +3062,8 @@
 		)
 	)
 	(symbol
-		(lib_id "struct:struct_ZQ")
-		(at 62.23 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce178157-f0ab-43d4-8349-a88a3e8015af")
-		(property "Reference" "D?"
-			(at 99.695 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 99.695 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "62020ed8-b2cd-41cc-9416-68d5c669623a")
-		)
-		(instances
-			(project ""
-				(path "/ad8e3e9a-beb1-43ec-b57c-1a0280baf6c5"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "struct:struct_conn_program")
-		(at 60.96 153.035 0)
+		(at 60.96 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3317,7 +3072,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6242344-1a07-43e5-ae07-d2b30d718cff")
 		(property "Reference" "D?"
-			(at 101.6 107.315 0)
+			(at 101.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,7 +3081,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 101.6 108.585 0)
+			(at 101.6 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 153.035 0)
+			(at 60.96 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 153.035 0)
+			(at 60.96 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 153.035 0)
+			(at 60.96 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

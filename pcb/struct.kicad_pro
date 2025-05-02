@@ -239,7 +239,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "sst"
+    ]
   },
   "meta": {
     "filename": "struct.kicad_pro",
