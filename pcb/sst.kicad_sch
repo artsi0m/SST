@@ -9061,7 +9061,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10к 0,25Вт"
+		(property "Value" "потенциометр 10к 0,25Вт"
 			(at 372.11 254 90)
 			(effects
 				(font
@@ -9468,7 +9468,7 @@
 		(dnp no)
 		(uuid "326e1baf-6fa7-4899-a7e9-fb4f8a4824e6")
 		(property "Reference" "X5"
-			(at 446.532 117.348 0)
+			(at 432.816 119.634 0)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -11612,7 +11612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 189.865 342.9 0)
 			(effects
 				(font
