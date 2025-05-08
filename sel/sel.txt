@@ -117,11 +117,18 @@
 "1"
 ""
 -----
-"VD1,VD2"
-"VD_Schottky"
+"VD1"
+"1N5817  шотки"
 ""
-"Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
-"2"
+"Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
+"1"
+""
+-----
+"VD2"
+"5,1В шотки"
+""
+"Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+"1"
 ""
 -----
 "VD3"
