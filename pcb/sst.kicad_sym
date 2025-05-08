@@ -4016,6 +4016,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "LM385BZ-2.5"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.0254)
 			(hide yes)
@@ -4147,7 +4150,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4165,7 +4168,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -5180,6 +5180,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "sst:LM385BZ-2.5"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.0254)
 				(hide yes)
@@ -5311,7 +5314,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5329,7 +5332,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12132,10 +12135,10 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "2813b968-9d0b-40f5-adb4-a709103a13b1")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "399015cf-3c6a-409e-b2d8-4388c1753686")
 		)
 		(instances
