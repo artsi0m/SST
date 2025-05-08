@@ -1,0 +1,11 @@
+* Перечень элементов и ссылки на chipdip
+| Designator           | value           | Footprint                                                     |   |
+| R1, R4...R6, R11,R12 | 10к, 1/4 Вт     | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal |   |
+| R2                   | 22, 1/4 Вт      | Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal |   |
+| R3, R15              | 1p, 1/4 Вт      | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal |   |
+| R7...R10             | pot 10к, 1/4 Вт | Potentiometer_THT:Potentiometer_TT_P0915N                     |   |
+| C1                   | 100мк           | Capacitor_THT:CP_Radial_D13.0mm_P5.00mm                       |   |
+| C2                   | 10мк 16В        | Capacitor_THT:CP_Radial_D13.0mm_P5.00mm                       |   |
+| C3                   | 100н            | Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm                |   |
+| C4,C5                | 22п"            | Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm                  |   |
+
