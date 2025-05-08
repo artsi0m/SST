@@ -9407,7 +9407,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "VD_Schottky"
+		(property "Value" "1N5817  шотки"
 			(at 60.96 248.92 0)
 			(effects
 				(font
@@ -10494,7 +10494,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VD_Schottky"
+		(property "Value" "5,1В шотки"
 			(at 135.89 372.11 0)
 			(effects
 				(font
