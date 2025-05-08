@@ -246,6 +246,9 @@ CLOCK: [2025-03-27 Чт 23:35]--[2025-03-27 Чт 23:53] =>  0:18
 **** Ansys workbench  / Linux
 
 **** COMSOL Multiphysics  / Windows
+:LOGBOOK:
+CLOCK: [2025-05-03 Sat 13:29]--[2025-05-03 Sat 13:55] =>  0:26
+:END:
 **** Ansys workbench / Windows
 
 **** Solidworks Simulation
