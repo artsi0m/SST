@@ -23,7 +23,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+2,5V"
 			(at 0 5.08 0)
 			(effects
 				(font

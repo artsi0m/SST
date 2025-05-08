@@ -1187,7 +1187,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+2V5"
+			(property "Value" "+2,5V"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -10084,7 +10084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d11d799-d013-4e52-b0be-990761fc6080")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR16"
 			(at 196.85 354.33 0)
 			(effects
 				(font
@@ -10093,8 +10093,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
-			(at 203.835 354.33 90)
+		(property "Value" "+2,5V"
+			(at 203.2 354.33 90)
 			(effects
 				(font
 					(size 2.0066 2.0066)
@@ -10134,7 +10134,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR016")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -10555,7 +10555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66e09960-0819-4ffa-b53c-f3f60ebccf1c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 189.23 175.26 0)
 			(effects
 				(font
@@ -10564,7 +10564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+2,5V"
 			(at 189.23 166.37 0)
 			(effects
 				(font
@@ -10604,7 +10604,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -11734,7 +11734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9af81f99-bf62-43f8-aded-adb2a8b04c6d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR23"
 			(at 419.1 238.76 0)
 			(effects
 				(font
@@ -11743,7 +11743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "+2,5V"
 			(at 419.1 229.87 0)
 			(effects
 				(font
@@ -11783,7 +11783,7 @@
 		(instances
 			(project ""
 				(path "/d486a0a8-b0b2-426a-9635-bf463f56fa2d"
-					(reference "#PWR023")
+					(reference "#PWR23")
 					(unit 1)
 				)
 			)
