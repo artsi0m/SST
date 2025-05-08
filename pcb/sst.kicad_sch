@@ -1889,7 +1889,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at -17.78 -35.56 0)
 					(length 5.08)
 					(name "AREF"
@@ -1907,7 +1907,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -17.78 -45.72 0)
 					(length 5.08)
 					(name "VCC"
@@ -1925,7 +1925,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -17.78 -55.88 0)
 					(length 5.08)
 					(name "AVCC"
@@ -1961,7 +1961,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 30.48 68.58 180)
 					(length 5.08)
 					(name "GND"
@@ -2015,7 +2015,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at 30.48 53.34 180)
 					(length 5.08)
 					(name "GND"
@@ -2087,7 +2087,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 30.48 30.48 180)
 					(length 5.08)
 					(name "PD3"
@@ -2249,7 +2249,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin bidirectional line
 					(at 30.48 -68.58 180)
 					(length 5.08)
 					(name "PC5"
@@ -6202,14 +6202,6 @@
 	(no_connect
 		(at 82.55 334.645)
 		(uuid "7d3b088e-f67e-4b4c-b741-e43511eab631")
-	)
-	(no_connect
-		(at 243.84 110.49)
-		(uuid "7ea0a083-509e-4a84-b8cb-c619a8b2234f")
-	)
-	(no_connect
-		(at 243.84 209.55)
-		(uuid "7ea86839-f806-4cba-ab5b-91a4d7f3dac0")
 	)
 	(no_connect
 		(at 67.31 334.645)
@@ -11874,20 +11866,19 @@
 		(fields_autoplaced yes)
 		(uuid "9f05b6a6-ba0e-4e23-bfcd-2f21a15bcc37")
 		(property "Reference" "DD1"
-			(at 219.71 63.5 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 2.54 2.54)
 				)
 			)
 		)
-		(property "Value" "Микроконтроллер ATmega328P"
+		(property "Value" "ATmega328P-P"
 			(at 219.71 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
