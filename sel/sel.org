@@ -1,11 +1,25 @@
-* Перечень элементов и ссылки на chipdip
-| Designator           | value           | Footprint                                                     |   |
-| R1, R4...R6, R11,R12 | 10к, 1/4 Вт     | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal |   |
-| R2                   | 22, 1/4 Вт      | Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal |   |
-| R3, R15              | 1p, 1/4 Вт      | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal |   |
-| R7...R10             | pot 10к, 1/4 Вт | Potentiometer_THT:Potentiometer_TT_P0915N                     |   |
-| C1                   | 100мк           | Capacitor_THT:CP_Radial_D13.0mm_P5.00mm                       |   |
-| C2                   | 10мк 16В        | Capacitor_THT:CP_Radial_D13.0mm_P5.00mm                       |   |
-| C3                   | 100н            | Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm                |   |
-| C4,C5                | 22п"            | Capacitor_THT:C_Radial_D6.3mm_H7.0mm_P2.50mm                  |   |
-
+* Перечень элементов в org
+| Designator           | value                           | num |
+|----------------------+---------------------------------+-----|
+| R1, R4...R6, R11,R12 | DIN 0207 10к, 1/4 Вт            |   6 |
+| R2                   | DIN 0204 22, 1/4 Вт             |   1 |
+| R3, R15              | DIN 0207 1p, 1/4 Вт             |   2 |
+| R7...R10             | pot 10к, 1/4 Вт                 |   4 |
+| C1                   | 100мк                           |   1 |
+| C2                   | 10мк 16В                        |   1 |
+| C3                   | 100н                            |   1 |
+| C4,C5                | 22п"                            |   2 |
+| DA1                  | LM7805 TO220                    |   1 |
+| DD1                  | ATMeaga328PU DIP-28             |   1 |
+| HA1                  | Зуммер                          |   1 |
+| HL1                  | Светодиод красный               |   1 |
+| SA1                  | DPDT JS202011AQN                |   1 |
+| SA2                  | SPDT OS102011MA1Q               |   1 |
+| VD1                  | Шотки 1N5817                    |   1 |
+| VD2                  | Шотки SOD27 DO-41               |   1 |
+| VT1                  | 2N7000 TO-92                    |   1 |
+| X1                   | Штырьевой разъём 2 на 3         |   1 |
+| X2                   | Barell Jack RAPC10U             |   1 |
+| X3, X5               | Штырьевой разъём 2 на 6         |   2 |
+| X4                   | Штырьевое гнездо 2 на 4         |   1 |
+| ZQ1                  | Кварцевый резонатор HC-49U 1Mгц |   1 |
