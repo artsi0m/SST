@@ -13446,7 +13446,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10к"
+		(property "Value" "10к 0,25Вт"
 			(at 526.415 198.12 90)
 			(effects
 				(font
@@ -13456,7 +13456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 522.605 203.2 0)
 			(effects
 				(font
