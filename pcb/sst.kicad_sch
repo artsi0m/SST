@@ -12774,7 +12774,7 @@
 				)
 			)
 		)
-		(property "Value" "резистор 22 0,25Вт"
+		(property "Value" "22 0,25Вт"
 			(at 505.46 177.8 0)
 			(effects
 				(font
