@@ -253,7 +253,8 @@ CLOCK: [2025-05-03 Sat 13:29]--[2025-05-03 Sat 13:55] =>  0:26
 :END:
 **** Ansys workbench / Windows
 
-**** Solidworks Simulation
+**** Solidworks
+
 *** Моделирование в программах
 **** COMSOL Multiphysics
 **** Ansys workbench
@@ -354,6 +355,8 @@ https://worldwide.espacenet.com/patent/search?f=cc%3Ain%3Dus%2Cru&q=nftxt%20%3D%
 
 *** Экономическое обоснование (2-я опроцентовка)
 :LOGBOOK:
+CLOCK: [2025-05-10 Sat 16:41]--[2025-05-10 Sat 16:52] =>  0:11
+CLOCK: [2025-05-10 Sat 16:13]--[2025-05-10 Sat 16:28] =>  0:15
 CLOCK: [2025-05-09 Fri 15:30]--[2025-05-09 Fri 15:37] =>  0:07
 CLOCK: [2025-05-09 Fri 15:14]--[2025-05-09 Fri 15:16] =>  0:02
 CLOCK: [2025-05-08 Чт 15:56]--[2025-05-08 Чт 15:57] =>  0:01
