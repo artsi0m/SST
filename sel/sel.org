@@ -1,25 +1,26 @@
 * Перечень элементов в org
-| Designator                | value                           | num |
-|---------------------------+---------------------------------+-----|
-| R1, R4...R6, R11,R12, R14 | DIN 0207 10к, 1/4 Вт            |   7 |
-| R2, R13                   | DIN 0204 22, 1/4 Вт             |   2 |
-| R3, R15                   | DIN 0207 1к, 1/4 Вт             |   2 |
-| R7...R10                  | potentiometer P015N 10к, 1/4 Вт |   4 |
-| C1                        | 100мк                           |   1 |
-| C2                        | 10мк 16В                        |   1 |
-| C3                        | 100н                            |   1 |
-| C4,C5                     | 22пФ                            |   2 |
-| DA1                       | LM7805 TO220                    |   1 |
-| DD1                       | ATMeaga328PU DIP-28             |   1 |
-| HA1                       | Зуммер                          |   1 |
-| HL1                       | Светодиод красный               |   1 |
-| SA1                       | DPDT JS202011AQN                |   1 |
-| SA2                       | SPDT OS102011MA1Q               |   1 |
-| VD1                       | Шотки 1N5817                    |   1 |
-| VD2                       | Шотки SOD27 DO-41               |   1 |
-| VT1                       | 2N7000 TO-92                    |   1 |
-| X1                        | Штырьевой разъём 2 на 3         |   1 |
-| X2                        | Barell Jack RAPC10U             |   1 |
-| X3, X5                    | Штырьевой разъём 2 на 6         |   2 |
-| X4                        | Штырьевое гнездо 2 на 4         |   1 |
-| ZQ1                       | Кварцевый резонатор HC-49U 1Mгц |   1 |
+| Designator                | value                                  | num | Link                                               |
+|---------------------------+----------------------------------------+-----+----------------------------------------------------|
+| R1, R4...R6, R11,R12, R14 | DIN 0207 10к, 1/4 Вт                   |   7 | https://belchip.by/product/?selected_product=09127 |
+| R2, R13                   | DIN 0204 22, 1/4 Вт                    |   2 | https://belchip.by/product/?selected_product=30192 |
+| R3, R15                   | DIN 0207 1к, 1/4 Вт                    |   2 | https://belchip.by/product/?selected_product=12412 |
+| R7...R10                  | potentiometer P015N 10к, 1/4 Вт        |   4 | https://www.chipdip.by/product0/8004552713         |
+| C1                        | 100мк 35В                              |   1 | https://www.chipdip.by/product0/9000565892         |
+| C2                        | 10мк 16В                               |   1 | https://www.chipdip.by/product0/9000565840         |
+| C3                        | 100н                                   |   1 | https://www.chipdip.by/product0/8002523603         |
+| C4,C5                     | 22п SMD0805                            |   2 | https://www.chipdip.by/product0/8004700181         |
+| DA1                       | LM7805 TO220                           |   1 | https://www.chipdip.by/product/lm7805ct-inchange   |
+| DD1                       | ATMeaga328PU DIP-28                    |   1 | https://www.chipdip.by/product/atmega328p-p        |
+| HA1                       | Зуммер пьезоэлектрический              |   1 | https://www.chipdip.by/product0/8008603196         |
+| HL1                       | Светодиод красный  3мм                 |   1 | https://belchip.by/product/?selected_product=36754 |
+| SA1                       | DPDT JS202011AQN                       |   1 | https://www.chipdip.by/product0/8017542278         |
+| SA2                       | SPDT OS102011MA1Q                      |   1 | https://www.chipdip.by/product0/8002635118         |
+| VD1                       | Шотки 1N5817                           |   1 | https://www.chipdip.by/product/1n5817-sunmate      |
+| VD2                       | Cтабилитрон BZX79C5V1 5.1В 0.5ВТ DO-35 |   1 | https://www.chipdip.by/product0/8028547942         |
+| VD3                       | LM385BZ-2.5 TO-92                      |   1 | https://www.chipdip.by/product0/8008352362         |
+| VT1                       | Транзистор 2N7000 TO-92                |   1 | https://www.chipdip.by/product/2n7000-jcet         |
+| X1                        | Разъём штырьевой pld-6                 |   1 | https://www.chipdip.by/product/pld-6               |
+| X2                        | Barell Jack KLDX-0202-AC               |   1 | https://www.chipdip.by/product0/8006213815         |
+| X3, X5                    | Разъём штырьевой SCT3001MH-2x6P        |   2 | https://www.chipdip.by/product/sct3001mh-2x6p      |
+| X4                        | Разъём гнездовой  PBD1.27-2-4          |   1 | https://www.chipdip.by/product0/8009338622         |
+| ZQ1                       | Кварцевый резонатор HC-49U 1Mгц        |   1 | https://www.chipdip.by/product0/9001626914                                                   |
