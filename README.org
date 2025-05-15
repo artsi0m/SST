@@ -3,8 +3,8 @@
 https://www.elektormagazine.com/labs/super-servo-tester
 
 ** file structure
-| file:README.org                                 | Этот файл                                                 |
-| file:project-todo.org                           | Подсчёт времени и учёт задач в org-mode                   |
+| [[file:README.org]]                                 | Этот файл                                                 |
+| [[file:project-todo.org]]                           | Подсчёт времени и учёт задач в org-mode                   |
 | [[file:pcb/]]                                       | Плата из KiCAD, топология и схема Э3 и Э1                 |
 | [[file:bachelor-thesis/]]                           | Пояснительная записка дипломной работы                    |
 | [[file:bachelor-thesis/KarakinBachelorThesis.bib]]  | Библиография дипломной работы                             |
@@ -13,7 +13,7 @@ https://www.elektormagazine.com/labs/super-servo-tester
 | [[file:sel/]]                                       | Перечень элементов, ПЭ3                                   |
 | [[file:sel/xesel.cls]]                              | Чужой латех класс для перечня элементов                   |
 | [[file:terms-of-reference/]]                        | Техническое Задание                                       |
-| file:project-proposal/                          | План проспект                                             |
+| [[file:project-proposal/]]                      | План проспект                                             |
 | [[file:coursework-paper/]]                          | Пояснительная записка курсовой работы                     |
 | [[file:coursework-paper/Karakin7semCoursework.bib]] | Библиография курсовой работы                              |
 | [[file:coursework-paper/main.tex]]                  | Входная точка для сборки пояснительной записки (курсовой) |
