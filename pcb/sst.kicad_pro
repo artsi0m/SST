@@ -553,7 +553,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "build/dxf/",
+      "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "build/sst-kicad-export.step",
