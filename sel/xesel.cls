@@ -19,10 +19,10 @@
 %%%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{xesel}[2014/12/26 v1.0 Schematic Elements Listing]
+\ProvidesClass{xesel}[2025/05/23 v1.1 Schematic Elements Listing]
 
 % only xelatex (cyrillic strings)
-\RequirePackage{iftex}
+\RequirePackage{ifxetex}
 \RequireXeTeX
 
 % setup base class
@@ -45,9 +45,6 @@
 
 % enable free font sizing
 \RequirePackage{lmodern}
-
-% enable mixed colors
-\RequirePackage{xcolor}
 
 % font size & style commands
 \newcommand*{\XeselFontVv}{\fontsize{5mm}{5mm}\selectfont}
@@ -97,7 +94,6 @@
 \AtBeginShipout{%
 	\AtBeginShipoutUpperLeft{%
 		\begin{picture}(0,0)(0,\paperheight)
-			\color{blue!20!black!70!black}
 			% draw border
 			\linethickness{0.4mm}
 			\put(20mm,5mm)  {\line(1,0){185mm}}
@@ -114,7 +110,7 @@
 				\setcounter{ELLines}{31}
 			\fi
 			% draw extra fields
-			\put(8mm,5mm){
+			\put(8mm,5mm){%
 				\begin{picture}(0mm,0mm)
 					% vertical lines
 					\put(0mm,0mm){\line(0,1){145mm}}
@@ -134,7 +130,7 @@
 					\put(-1mm,110.5mm){\begin{sideways}\parbox[c][5mm][b]{34mm}{\centering\XeselFormFont\XeselFontVv Подп. и дата}\end{sideways}}
 				\end{picture}}
 			% go to inframe drwing
-			\put(20mm,5mm){
+			\put(20mm,5mm){%
 				\begin{picture}(0mm,0mm)
 					% draw table
 					\put(20mm,\ELStampHeight) {\line(0,1){\ELHeight}}
@@ -233,7 +229,7 @@
 }%
 
 \pagestyle{empty}
-\tabcolsep=1.5mm
+\tabcolsep=1mm
 \renewcommand*{\arraystretch}{1.0}
 \setlength{\extrarowheight}{0mm}
 
