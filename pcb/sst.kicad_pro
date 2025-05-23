@@ -235,16 +235,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_not_connected|2438400|1104900|075e22cb-e0b6-43e2-bb27-d04f0a717a9c|00000000-0000-0000-0000-000000000000|/d486a0a8-b0b2-426a-9635-bf463f56fa2d|/d486a0a8-b0b2-426a-9635-bf463f56fa2d|",
-        "Меня заставили убрать крестик неподключенных пинов т.к. он не соотвествует ГОСТ ЕСКД"
-      ],
-      [
-        "pin_not_connected|2438400|2095500|a4af8b54-d554-4d06-baca-96dceb1fca74|00000000-0000-0000-0000-000000000000|/d486a0a8-b0b2-426a-9635-bf463f56fa2d|/d486a0a8-b0b2-426a-9635-bf463f56fa2d|",
-        "Меня заставили убрать крестик неподключенных пинов т.к. он не соотвествует ГОСТ"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -447,7 +438,7 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "ignore",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "ignore",
