@@ -14,7 +14,7 @@ https://www.elektormagazine.com/labs/super-servo-tester
 | [[file:bachelor-thesis/]]                           | Пояснительная записка дипломной работы                    |
 | [[file:bachelor-thesis/KarakinBachelorThesis.bib]]  | Библиография дипломной работы                             |
 | [[file:bachelor-thesis/main.tex]]                   | Входная точка для сборки пояснительной записки            |
-| [[file:bachelor-thesis/bsuir-std.cls]]              | Латех класс для соответвия стандарту СТП                  |
+| [[file:bachelor-thesis/bsuir-std.cls]]              | Латех класс для соответствия стандарту СТП                |
 | [[file:sel/]]                                       | Перечень элементов, ПЭ3                                   |
 | [[file:sel/xesel.cls]]                              | Чужой латех класс для перечня элементов                   |
 | [[file:terms-of-reference/]]                        | Техническое Задание                                       |
@@ -22,3 +22,7 @@ https://www.elektormagazine.com/labs/super-servo-tester
 | [[file:coursework-paper/]]                          | Пояснительная записка курсовой работы                     |
 | [[file:coursework-paper/Karakin7semCoursework.bib]] | Библиография курсовой работы                              |
 | [[file:coursework-paper/main.tex]]                  | Входная точка для сборки пояснительной записки (курсовой) |
+
+** dependencies
+
+https://github.com/artsi0m/kicad-symbols-gost/tree/artsi0m-kicad-v8
