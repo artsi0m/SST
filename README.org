@@ -7,21 +7,23 @@
 https://www.elektormagazine.com/labs/super-servo-tester
 
 ** file structure
-| [[file:README.org]]                                 | Этот файл                                                 |
-| [[file:project-todo.org]]                           | Подсчёт времени и учёт задач в org-mode                   |
-| [[file:calculations/]]                              | Расчёты в org-mode                                        |
-| [[file:pcb/]]                                       | Плата из KiCAD, топология и схема Э3 и Э1                 |
-| [[file:bachelor-thesis/]]                           | Пояснительная записка дипломной работы                    |
-| [[file:bachelor-thesis/KarakinBachelorThesis.bib]]  | Библиография дипломной работы                             |
-| [[file:bachelor-thesis/main.tex]]                   | Входная точка для сборки пояснительной записки            |
-| [[file:bachelor-thesis/bsuir-std.cls]]              | Латех класс для соответствия стандарту СТП                |
-| [[file:sel/]]                                       | Перечень элементов, ПЭ3                                   |
-| [[file:sel/xesel.cls]]                              | Чужой латех класс для перечня элементов                   |
-| [[file:terms-of-reference/]]                        | Техническое Задание                                       |
-| [[file:project-proposal/]]                          | План проспект                                             |
-| [[file:coursework-paper/]]                          | Пояснительная записка курсовой работы                     |
-| [[file:coursework-paper/Karakin7semCoursework.bib]] | Библиография курсовой работы                              |
-| [[file:coursework-paper/main.tex]]                  | Входная точка для сборки пояснительной записки (курсовой) |
+| [[file:README.org]]                                 | Этот файл                                                               |
+| [[file:project-todo.org]]                           | Подсчёт времени и учёт задач в org-mode                                 |
+| [[file:calculations/]]                              | Расчёты в org-mode                                                      |
+| [[file:pcb/]]                                       | Плата из KiCAD, топология и схема Э3 и Э1                               |
+| [[file:pcb/3dmodels]]                               | 3D модели в формате STEP для моделирования в CAE                        |
+| [[file:pcb/plots]]                                  | Слои печатной платы в dxf для чертежа печатной платы и сборочного в dwg |
+| [[file:bachelor-thesis/]]                           | Пояснительная записка дипломной работы                                  |
+| [[file:bachelor-thesis/KarakinBachelorThesis.bib]]  | Библиография дипломной работы                                           |
+| [[file:bachelor-thesis/main.tex]]                   | Входная точка для сборки пояснительной записки                          |
+| [[file:bachelor-thesis/bsuir-std.cls]]              | Латех класс для соответствия стандарту СТП                              |
+| [[file:sel/]]                                       | Перечень элементов, ПЭ3                                                 |
+| [[file:sel/xesel.cls]]                              | Чужой латех класс для перечня элементов                                 |
+| [[file:terms-of-reference/]]                        | Техническое Задание                                                     |
+| [[file:project-proposal/]]                          | План проспект                                                           |
+| [[file:coursework-paper/]]                          | Пояснительная записка курсовой работы                                   |
+| [[file:coursework-paper/Karakin7semCoursework.bib]] | Библиография курсовой работы                                            |
+| [[file:coursework-paper/main.tex]]                  | Входная точка для сборки пояснительной записки (курсовой)               |
 
 ** dependencies
 
