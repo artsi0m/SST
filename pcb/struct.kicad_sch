@@ -11,7 +11,11 @@
 		(comment 2 "Корякин")
 		(comment 3 "Колбун")
 		(comment 4 "Алексеев")
+		(comment 5 "-")
 		(comment 6 "Ефремова")
+		(comment 7 "-")
+		(comment 8 "-")
+		(comment 9 "-")
 	)
 	(lib_symbols
 		(symbol "struct:struct_MCU"
@@ -1098,7 +1102,7 @@
 				)
 			)
 			(symbol "struct_sensors_1_1"
-				(text_box "внешние датчики\nбеспилотного летательного аппарата\nмультироторного типа"
+				(text_box "Внешние датчики\nбеспилотного летательного аппарата\nмультироторного типа"
 					(at 0 0 0)
 					(size 104.14 -38.1)
 					(margins 1.016 1.016 1.016 1.016)
@@ -1111,6 +1115,7 @@
 					)
 					(effects
 						(font
+							(face "KiCad Font")
 							(size 5.08 5.08)
 						)
 						(justify top)
