@@ -84,7 +84,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 199.7556 95.1644)
+		(grid_origin 119.7556 185.1644)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_55555554)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_02000004)
@@ -19464,6 +19464,80 @@
 				(thickness 0.1)
 			)
 			(justify left top)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "0421a38d-f7f1-4aa8-8d30-88fffd76f1cc")
+		(pts
+			(xy 119.7556 185.1644) (xy 199.7556 185.7644)
+		)
+		(height 10.7)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "80.0000 mm"
+			(at 159.7556 194.7144 0)
+			(layer "Dwgs.User")
+			(uuid "0421a38d-f7f1-4aa8-8d30-88fffd76f1cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "703d93ee-b3a3-4a72-9bd2-d6c1c25e9fe7")
+		(pts
+			(xy 119.7556 95.1644) (xy 119.7556 185.1644)
+		)
+		(height -28)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "90.0000 mm"
+			(at 90.6056 140.1644 90)
+			(layer "Dwgs.User")
+			(uuid "703d93ee-b3a3-4a72-9bd2-d6c1c25e9fe7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment
