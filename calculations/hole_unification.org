@@ -1,0 +1,37 @@
+* Drill holes unification
+
+** Original table
+See [[file:~/Projects/SST/pcb/sst_report.txt][sst_report]].
+
+#+NAME: drill_holes_original
+| Count | Shape | X Size    | Y Size    | Plated | Via/Pad | Start Layer | Stop Layer | Unified ?         |
+|-------+-------+-----------+-----------+--------+---------+-------------+------------+-------------------|
+|    52 | Round | 0.8000 mm | 0.8000 mm | PTH    | Pad     | F.Cu        | B.Cu       | +                 |
+|    38 | Round | 1.0000 mm | 1.0000 mm | PTH    | Pad     | F.Cu        | B.Cu       | +                 |
+|    12 | Round | 0.7000 mm | 0.7000 mm | PTH    | Pad     | F.Cu        | B.Cu       | +                 |
+|    11 | Round | 0.9000 mm | 0.9000 mm | PTH    | Pad     | F.Cu        | B.Cu       | +                 |
+|     8 | Round | 2.0000 mm | 2.0000 mm | PTH    | Pad     | F.Cu        | B.Cu       | От потенциометров |
+|     6 | Round | 0.7500 mm | 0.7500 mm | PTH    | Pad     | F.Cu        | B.Cu       | +                 |
+|     6 | Round | 0.5000 mm | 0.5000 mm | PTH    | Pad     | F.Cu        | B.Cu       | +                 |
+|     5 | Round | 1.1000 mm | 1.1000 mm | PTH    | Pad     | F.Cu        | B.Cu       | +                 |
+|     4 | Round | 1.2000 mm | 1.2000 mm | PTH    | Pad     | F.Cu        | B.Cu       | +                 |
+|     4 | Round | 2.2000 mm | 2.2000 mm | NPTH   | Pad     | F.Cu        | B.Cu       | NPTH              |
+|     2 | Slot  | 1.0000 mm | 3.0000 mm | PTH    | Pad     | F.Cu        | B.Cu       | slot              |
+|     2 | Round | 1.5000 mm | 1.5000 mm | PTH    | Pad     | F.Cu        | B.Cu       | +                 |
+|     1 | Slot  | 1.0000 mm | 3.5000 mm | PTH    | Pad     | F.Cu        | B.Cu       | slot              |
+
+** Unified table
+Only round shapes
+
+#+NAME: drill_holes_unified
+| Count | Радиус контактной площадки, mm | Диаметр отверстия | Диаметр контактной площадки | Металлизация | Объединяет контактные площадки радиусом |
+|-------+--------------------------------+-------------------+-----------------------------+--------------+-----------------------------------------|
+|     4 |                            2.2 |                 2 |                         4.4 | Нет          | 2.2                                     |
+|     8 |                              2 |                 1 |                           4 | Есть         | 2                                       |
+|   112 |                              1 |               0.8 |                           2 | Есть         | 1.5, 1.2, 1.1, 1, 0.9, 0.8 mm           |
+|    24 |                           0.75 |               0.5 |                         1.5 | Есть         | 0.75, 0.7, 0.5                          |
+#+TBLFM: $4=$2 * 2
+
+
+
+
