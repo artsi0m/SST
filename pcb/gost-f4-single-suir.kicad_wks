@@ -1,7 +1,7 @@
 (kicad_wks
 	(version 20231118)
 	(generator "pl_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(setup
 		(textsize 2.5 2.5)
 		(linewidth 0.3)
@@ -184,40 +184,47 @@
 		(name "text1:Text")
 		(pos 173 32.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "${COMMENT3}"
 		(name "text2:Text")
 		(pos 167.5 22.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(maxlen 21.5)
+		(comment "проверил")
 	)
 	(tbtext "Пров."
 		(name "text3:Text")
 		(pos 184.5 22.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 	)
 	(tbtext "Утв."
 		(name "text4:Text")
 		(pos 184.5 2.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 	)
 	(tbtext "Лит."
 		(name "text6:Text")
 		(pos 42 37.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(justify center)
 	)
-	(tbtext "ГУИР ${COMMENT1}"
+	(tbtext "ГУИР.${COMMENT1}"
 		(name "text7:Text")
 		(pos 60 47.5)
 		(option page1only)
 		(font
+			(face "OpenGost Type A")
 			(linewidth 0.5)
 			(size 5 5) italic)
 		(justify center)
@@ -249,6 +256,7 @@
 		(pos 25 7)
 		(option page1only)
 		(font
+			(face "OpenGost Type A")
 			(linewidth 0.35)
 			(size 3.5 3.5) italic)
 		(justify center)
@@ -260,7 +268,7 @@
 		(pos 85 30.04)
 		(option page1only)
 		(font
-			(face "KiCad Font")
+			(face "OpenGost Type A")
 			(linewidth 0.35)
 			(size 3.629 3.629) italic)
 		(justify center)
@@ -300,62 +308,73 @@
 		(name "text15:Text")
 		(pos 9 37.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Масса"
 		(name "text16:Text")
 		(pos 26.5 37.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "${COMMENT4}"
 		(name "text17:Text")
-		(pos 167.5 2.5)
+		(pos 167.5 17.74)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(maxlen 21.5)
+		(comment "т.контр")
 	)
 	(tbtext "${COMMENT2}"
 		(name "text18:Text")
 		(pos 167.5 27.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(maxlen 21.5)
+		(comment "разработал")
 	)
 	(tbtext "Разраб."
 		(name "text19:Text")
 		(pos 184.5 27.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 	)
 	(tbtext "Дата"
 		(name "text20:Text")
 		(pos 125 32.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Подп."
 		(name "text21:Text")
 		(pos 137 32.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "N°докум."
 		(name "text22:Text")
 		(pos 156.5 32.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Изм."
 		(name "text23:Text")
 		(pos 181.5 32.5)
 		(option page1only)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(justify center)
 		(maxlen 6.5)
 	)
@@ -481,7 +500,8 @@
 		(name "text39:Text")
 		(pos 156.5 2.5)
 		(option notonpage1)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Лист"
@@ -561,8 +581,48 @@
 		(option notonpage1)
 		(linewidth 0.6)
 	)
-	(tbtext "схема электрическая\n принципиальная"
+	(tbtext "Cхема электрическая принципиальная"
 		(name "")
-		(pos 105.109 20.2222)
+		(pos 110.189 17.682)
+		(font
+			(face "OpenGost Type A") italic)
+	)
+	(tbtext "Т.конт."
+		(name "")
+		(pos 185.119 17.6822)
+		(font
+			(face "OpenGost Type A") italic)
+	)
+	(tbtext "Рец"
+		(name "")
+		(pos 183.849 12.6022)
+		(font
+			(face "OpenGost Type A") italic)
+	)
+	(tbtext "${COMMENT5}"
+		(name "")
+		(pos 167.339 12.602)
+		(font
+			(face "OpenGost Type A") italic)
+		(comment "рецензент")
+	)
+	(tbtext "Н.конт."
+		(name "")
+		(pos 183.849 7.5222)
+		(font
+			(face "OpenGost Type A") italic)
+	)
+	(tbtext "${COMMENT6}"
+		(name "")
+		(pos 167.339 7.522)
+		(font
+			(face "OpenGost Type A") italic)
+		(comment "Н.конт.")
+	)
+	(tbtext "${COMMENT7}"
+		(name "")
+		(pos 167.339 2.442)
+		(font
+			(face "OpenGost Type A") italic)
 	)
 )
