@@ -279,7 +279,9 @@
 		(name "text11:Text")
 		(pos 29 17.5)
 		(option page1only)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
+
 	)
 	(tbtext "${COMMENT1}"
 		(name "text12:Text")
@@ -295,7 +297,8 @@
 		(name "text14:Text")
 		(pos 49 17.5)
 		(option page1only)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)		
 	)
 	(line
 		(name "segm25:Line")
@@ -391,28 +394,32 @@
 		(name "text24:Text")
 		(pos 2.5 72.5 lbcorner)
 		(rotate 90)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Подп. и дата"
 		(name "text26:Text")
 		(pos 2.5 42.5 lbcorner)
 		(rotate 90)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Инв.N°дубл."
 		(name "text27:Text")
 		(pos 2.5 97.5 lbcorner)
 		(rotate 90)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Инв.N°подл."
 		(name "text28:Text")
 		(pos 2.5 12.5 lbcorner)
 		(rotate 90)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(line
@@ -428,7 +435,8 @@
 		(name "text29:Text")
 		(pos 2.5 127.5 lbcorner)
 		(rotate 90)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Перв. примен."
@@ -436,7 +444,8 @@
 		(pos 2.5 257 lbcorner)
 		(option page1only)
 		(rotate 90)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Справ. N°"
@@ -444,40 +453,44 @@
 		(pos 2.5 197 lbcorner)
 		(option page1only)
 		(rotate 90)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "${#}"
 		(name "text32:Text")
 		(pos 5 4)
 		(option notonpage1)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)	
 		(justify center)
 	)
 	(tbtext "Лист"
 		(name "text33:Text")
 		(pos 5 11.5)
 		(option notonpage1)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Копировал"
 		(name "text34:Text")
 		(pos 110 -2.5)
-		(font italic)
+		(font
+			(face "OpenGost Type A") italic)
 	)
 	(tbtext "Формат ${PAPER}"
 		(name "text35:Text")
 		(pos 40 -2.5)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 	)
 	(tbtext "${COMMENT1}"
 		(name "text36:Text")
 		(pos 65 7.5)
 		(option notonpage1)
 		(font
-			(linewidth 0.5)
-			(size 5 5) italic)
+		 (face "OpenGost Type A") italic)
 		(justify center)
 		(maxlen 109)
 		(maxheight 14)
@@ -486,14 +499,16 @@
 		(name "text37:Text")
 		(pos 125 2.5)
 		(option notonpage1)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Подп."
 		(name "text38:Text")
 		(pos 137.5 2.5)
 		(option notonpage1)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "N°докум."
@@ -508,14 +523,16 @@
 		(name "text40:Text")
 		(pos 173 2.5)
 		(option notonpage1)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 	)
 	(tbtext "Изм."
 		(name "text41:Text")
 		(pos 181.5 2.5)
 		(option notonpage1)
-		(font italic)
+		(font
+		 (face "OpenGost Type A") italic)
 		(justify center)
 		(maxlen 6.5)
 	)
