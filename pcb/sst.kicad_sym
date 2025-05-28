@@ -4005,10 +4005,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VD"
-			(at 14.732 5.842 0)
+			(at 5.588 4.572 0)
 			(effects
 				(font
-					(size 5.08 5.08)
+					(size 2.0066 2.0066)
 				)
 			)
 		)
@@ -4193,7 +4193,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 0 -17.78 0)
+			(at 1.016 -23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4242,7 @@
 			)
 		)
 		(symbol "LM7805_TO220_1_1"
-			(text "ST*"
+			(text "*ST"
 				(at 11.176 0.762 0)
 				(effects
 					(font
@@ -4269,26 +4269,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 22.86 3.81 180)
-				(length 5.08)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 22.86 -3.81 180)
+				(at 11.43 -11.43 90)
 				(length 5.08)
 				(name ""
 					(effects
@@ -4305,10 +4287,35 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
 	(symbol "SA_SLIDE_DPDT"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4353,14 +4360,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "SA_SLIDE_DPDT_1_1"
