@@ -7,13 +7,15 @@
 	(title_block
 		(title " Система автоматического управления \\n беспилотным летательным аппаратом \\n мультироторного типа ")
 		(date "2025-03-23")
-		(comment 1 "467993.013 Э3")
-		(comment 2 "Корякин")
-		(comment 3 "Колбун")
+		(company "каф. ПИКС")
+		(comment 1 "ГУИР.467993.013 Э3")
+		(comment 2 "Схема электрическая принципиальная")
+		(comment 3 "Корякин")
 		(comment 4 "Колбун")
-		(comment 5 "Друц")
-		(comment 6 "Ефремова")
-		(comment 7 "Алексеев")
+		(comment 5 "Колбун")
+		(comment 6 "Друц")
+		(comment 7 "Ефремова")
+		(comment 8 "Алексеев")
 	)
 	(lib_symbols
 		(symbol "Device_GOST:C"
@@ -13534,5 +13536,4 @@
 		)
 	)
 	(embedded_fonts no)
-	
 )
