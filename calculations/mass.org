@@ -5,19 +5,18 @@ See [[file:~/Projects/SST/pcb/sst_report.txt][sst_report]] for area.
 7066.5679 mm²
 ** Material
 See economics.org for material.
-https://belchip.by/product/?selected_product=49007
+https://belchip.by/product/?selected_product=32282
 ** PCB height
-2.5 mm
+1.5 mm
 
 ** density
-https://eltm.ru/alternativa-materialu-faf4d.html
-2.3 g/сm³
+https://en.wikipedia.org/wiki/FR-4
 
 ** Mass table
 #+NAME: PCB_mass
 | Area    | 7066.5678 | mm²   |
-| Height  |       2.5 | mm    |
-| Volume  | 17666.420 | mm³   |
-| Density |       2.3 | g/sm³ |
-| Mass    | 40.632766 | g     |
+| Height  |       1.5 | mm    |
+| Volume  | 10599.852 | mm³   |
+| Density |     1.850 | g/sm³ |
+| Mass    | 19.609726 | g     |
 #+TBLFM: @3$2=@1*@2::@5$2=@4*@3 / 1000
