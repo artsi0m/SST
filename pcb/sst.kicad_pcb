@@ -16950,13 +16950,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/PinSocket_2x04_P1.27mm_Vertical.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -4.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
