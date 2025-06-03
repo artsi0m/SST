@@ -3058,7 +3058,7 @@
 			(uuid "37c63a57-265e-4d1e-93b8-c07964f0ccd5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/D_DO-35_SOD27_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/D_DO-35_SOD27_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3330,7 +3330,7 @@
 			(uuid "efdd36d9-ddad-4a53-acea-3070ff40561d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Crystal_HC49-U_Vertical.wrl"
+		(model "${KIPRJMOD}/3dmodels/Crystal_HC49-U_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3595,7 +3595,7 @@
 			(uuid "8ec2f500-26cc-4fb6-8c17-2560d07f79a8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4131,7 +4131,7 @@
 			(uuid "5e23feb5-101a-4f99-b831-d8834f5e3a79")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/BarrelJack_Kycon_KLDX-0202-xC_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/BarrelJack_Kycon_KLDX-0202-xC_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4349,7 +4349,7 @@
 			(uuid "b2188be0-f3be-4c52-be01-9912e7c172c8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/TO-92_Inline.wrl"
+		(model "${KIPRJMOD}/3dmodels/TO-92_Inline.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6608,7 +6608,7 @@
 			(uuid "b00a35d8-7a31-41f9-8f76-ad75aa6bdbf5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/TO-92.wrl"
+		(model "${KIPRJMOD}/3dmodels/TO-92.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6872,7 +6872,7 @@
 			(uuid "5a8dc257-3c91-46ed-9ecd-982fc80717b8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7283,7 +7283,7 @@
 			(uuid "dfb4bdd4-8ee1-4bdb-b422-c8d55880484d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.wrl"
+		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7645,7 +7645,7 @@
 			(uuid "b5621be3-5951-48ac-aa31-6562ab961ad2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9240,7 +9240,7 @@
 			(uuid "9840bacd-91b2-4f4e-bc07-d272bfb44e12")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12207,7 +12207,7 @@
 			(uuid "6f6aaf4d-0787-4fe2-be06-9641c9b93126")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.wrl"
+		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13097,7 +13097,7 @@
 			(uuid "6c37e18c-5c5f-4d74-a5ed-daca9c021b13")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/SW_CK_JS202011AQN_DPDT_Angled.wrl"
+		(model "${KIPRJMOD}/3dmodels/SW_CK_JS202011AQN_DPDT_Angled.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13362,7 +13362,7 @@
 			(uuid "2c77b088-6ccb-4cc4-a680-73fe5afdab24")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13773,7 +13773,7 @@
 			(uuid "8b34666a-a7b7-4934-9623-4fa527a1c782")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.wrl"
+		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14238,7 +14238,7 @@
 			(uuid "1e9f719f-06fd-4409-b893-ed149ce605f4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14684,7 +14684,7 @@
 			(uuid "3a75f51c-1a15-46ef-9aad-1488d745b4ac")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/D_DO-41_SOD81_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/D_DO-41_SOD81_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15192,7 +15192,7 @@
 			(uuid "9a41475a-63b3-4faf-b56f-4a69043e6b26")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.wrl"
+		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15514,7 +15514,7 @@
 			(uuid "5f8bab8e-68b6-4d6d-9665-0819f96111e9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15754,7 +15754,7 @@
 			(uuid "5651ae77-ba56-4aaa-8af0-f5ac3cdbe1f2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/LED_D3.0mm.wrl"
+		(model "${KIPRJMOD}/3dmodels/LED_D3.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15926,7 +15926,7 @@
 			(uuid "f863ddb9-e2ee-419f-b2ac-2265ca3f6ada")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Buzzer_15x7.5RM7.6.wrl"
+		(model "${KIPRJMOD}/3dmodels/Buzzer_15x7.5RM7.6.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16219,7 +16219,7 @@
 			(uuid "404e4dfc-4818-4506-8d14-128d1c171729")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/TO-220-3_Vertical.wrl"
+		(model "${KIPRJMOD}/3dmodels/TO-220-3_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16483,7 +16483,7 @@
 			(uuid "0ba59b62-afb2-4254-8a05-4f718dca7fd8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16948,7 +16948,7 @@
 			(uuid "64efcc6c-db58-4e19-a3d0-bba8fdb4ce15")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/PinSocket_2x04_P1.27mm_Vertical.wrl"
+		(model "${KIPRJMOD}/3dmodels/PinSocket_2x04_P1.27mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17212,7 +17212,7 @@
 			(uuid "d49efa61-9f1c-45b5-a56e-ab7ece20da86")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17482,7 +17482,7 @@
 			(uuid "03f372fc-28ee-450e-9047-735cbef2c6fe")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/SW_Slide_SPDT_Angled_CK_OS102011MA1Q.wrl"
+		(model "${KIPRJMOD}/3dmodels/SW_Slide_SPDT_Angled_CK_OS102011MA1Q.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17703,7 +17703,7 @@
 			(uuid "a1df99f5-26ce-4218-9972-9c2b2cb9160d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/C_Disc_D7.5mm_W5.0mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/3dmodels/C_Disc_D7.5mm_W5.0mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17927,7 +17927,7 @@
 			(uuid "7427f082-22ce-4578-b5a8-2fd91bec22e5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18191,7 +18191,7 @@
 			(uuid "cdb9f4c4-93c5-45e8-b7e5-115bbf7dc194")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
