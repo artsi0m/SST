@@ -2709,15 +2709,15 @@
 			(uuid "4575026f-7309-4b5c-afde-6dd3bc83ddae")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/CP_Radial_D13.0mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/3dmodels/CP_Radial_D13.0mm_P5.00mm.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.5 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -11796,15 +11796,15 @@
 			(uuid "115d461d-851c-44ab-b298-160fc0f9a238")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/CP_Radial_D13.0mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/3dmodels/CP_Radial_D13.0mm_P5.00mm.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.5 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
