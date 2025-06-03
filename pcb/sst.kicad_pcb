@@ -6388,15 +6388,15 @@
 			(uuid "cbdca75e-c81b-490e-8e28-22f97fb7e53a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/PinHeader_2x03_P1.00mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/PinHeader_2x03_P1.00mm_Horizontal.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0.5 -3.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
