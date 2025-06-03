@@ -5680,15 +5680,15 @@
 			(uuid "05bf10a6-9563-4341-9f0f-35bf5311ec2b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/PinHeader_2x06_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/PinHeader_2x06_P2.54mm_Horizontal.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -1.5 -14 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -8976,15 +8976,15 @@
 			(uuid "d8a45368-f402-4dfa-8d3f-31bb9195838a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/PinHeader_2x06_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3dmodels/PinHeader_2x06_P2.54mm_Horizontal.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -1 -14.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
