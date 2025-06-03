@@ -12723,10 +12723,10 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/DIP-28_W7.62mm.step"
 			(offset
-				(xyz -1 -26 0)
+				(xyz -1 -33.5 0)
 			)
 			(scale
-				(xyz 1 0.7 1)
+				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz -0 -0 -0)
