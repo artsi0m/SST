@@ -17705,13 +17705,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/C_Disc_D7.5mm_W5.0mm_P5.00mm.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -1.5 -2.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
