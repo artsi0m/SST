@@ -112,6 +112,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -12720,15 +12721,15 @@
 			(uuid "c4627dc5-cfa1-4429-a9a6-56af13ea574e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/DIP-28_W7.62mm.wrl"
+		(model "${KIPRJMOD}/3dmodels/DIP-28_W7.62mm.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -1 -26 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 0.7 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
