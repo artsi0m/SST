@@ -13099,13 +13099,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/SW_CK_JS202011AQN_DPDT_Angled.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 -3.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -15756,13 +15756,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/LED_D3.0mm.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)

@@ -547,7 +547,7 @@
       "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "build/sst-kicad-export.step",
+      "step": "build/sst-kicad-export2.step",
       "svg": "edge-cuts/",
       "vrml": ""
     },
