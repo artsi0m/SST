@@ -17484,13 +17484,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/SW_Slide_SPDT_Angled_CK_OS102011MA1Q.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2 -1.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
