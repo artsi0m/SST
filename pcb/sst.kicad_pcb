@@ -7283,15 +7283,15 @@
 			(uuid "dfb4bdd4-8ee1-4bdb-b422-c8d55880484d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.step"
+		(model "${KIPRJMOD}/3dmodels/P0915N-Cube.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -12207,15 +12207,15 @@
 			(uuid "6f6aaf4d-0787-4fe2-be06-9641c9b93126")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.step"
+		(model "${KIPRJMOD}/3dmodels/P0915N-Cube.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -13773,15 +13773,15 @@
 			(uuid "8b34666a-a7b7-4934-9623-4fa527a1c782")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.step"
+		(model "${KIPRJMOD}/3dmodels/P0915N-Cube.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -15192,15 +15192,15 @@
 			(uuid "9a41475a-63b3-4faf-b56f-4a69043e6b26")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/Potentiometer_TT_P0915N.step"
+		(model "${KIPRJMOD}/3dmodels/P0915N-Cube.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -2.5 2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
