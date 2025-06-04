@@ -14686,13 +14686,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/D_DO-41_SOD81_P7.62mm_Horizontal.step"
 			(offset
-				(xyz 1 0 1.5)
+				(xyz 1 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -90 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
