@@ -101,3 +101,11 @@ GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#72)) GLOBAL_UNIT_ASSIGNED_CONTEXT(
   9.803921802644E-02);
 ENDSEC;
 END-ISO-10303-21;
+//+
+SetFactory("Built-in");
+//+
+SetFactory("OpenCASCADE");
+//+
+SetFactory("OpenCASCADE");
+//+
+SetFactory("OpenCASCADE");
