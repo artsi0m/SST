@@ -4131,15 +4131,15 @@
 			(uuid "5e23feb5-101a-4f99-b831-d8834f5e3a79")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3dmodels/BarrelJack_Kycon_KLDX-0202-xC_Horizontal.step"
+		(model "${KIPRJMOD}/3dmodels/KLDX-Cube.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -13.5 -4.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
