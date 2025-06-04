@@ -3597,13 +3597,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
-				(xyz -1.5 0 1.5)
+				(xyz 0 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -90 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -6874,13 +6874,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
-				(xyz -1.5 0 1.5)
+				(xyz 0 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -90 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7647,13 +7647,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
-				(xyz -1.5 0 1.5)
+				(xyz 0 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -90 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9242,13 +9242,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
-				(xyz -1.5 0 1.5)
+				(xyz 0 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -90 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -13364,13 +13364,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
-				(xyz 9 0 1.5)
+				(xyz 0 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 90 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -14240,13 +14240,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
-				(xyz -1.5 0 1.5)
+				(xyz 0 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -90 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -16485,13 +16485,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
-				(xyz -1.5 0 1.5)
+				(xyz 0 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -90 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -17214,13 +17214,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
-				(xyz -1.5 0 1.5)
+				(xyz 0 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -90 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -18193,13 +18193,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3dmodels/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
-				(xyz -1.5 0 1.5)
+				(xyz 0 -2 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -90 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
