@@ -28,7 +28,7 @@
 
 
   % Устанавливаем основным шрифтом системный OpenGost Type A TT
-  \setmainfont{OpenGost Type A}
+  \setmainfont[AutoFakeSlant=0.25,AutoFakeBold=0.2]{OpenGost Type A}
 
   \newfontfamily{\cyrillicfontsf}{OpenGost Type A}
   \providecommand{\No}{\textnumero}
