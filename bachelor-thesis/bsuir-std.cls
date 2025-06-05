@@ -5,7 +5,7 @@
 %%% End:
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{bsuir-std}[2024/12/16 Class conforming to BSUIR standard]
+\ProvidesClass{bsuir-std}[2025/05/06 Class conforming to BSUIR standard]
 
 
 \LoadClass[a4paper,14pt]{extarticle}
@@ -62,7 +62,6 @@
 % «межстрочный интервал – 1,0 (18 пунктов),»
 % 40 +- 3 строки на страницу
 \singlespacing
-
 \setstretch{1}
 
 % Содержание по СТП
