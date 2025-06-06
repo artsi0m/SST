@@ -113,21 +113,23 @@
 % Оглавление секций:
 % Отсуствие точек у номеров
 % Верхний регистр
+% Отсуствие гифинации
 %
 % https://tex.stackexchange.com/a/324041
+% https://tex.stackexchange.com/a/24783
 % https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/titlesec/titlesec.pdf
 \titleformat{\section}[block]
-{\normalfont\Large\bfseries}{\thesection}{0.4em}{\MakeUppercase}
+{\normalfont\Large\bfseries\raggedright}{\thesection}{0.4em}{\MakeUppercase}
 
 \titleformat{name=\section,numberless}[block]
-{\normalfont\Large\bfseries}{}{0.4em \centering}{\MakeUppercase}
+{\normalfont\Large\bfseries\raggedright}{}{0.4em \centering}{\MakeUppercase}
 
 
 \titleformat{\subsection}
-{\normalfont\large\bfseries}{\thesubsection}{0.4em}{}
+{\normalfont\large\bfseries\raggedright}{\thesubsection}{0.4em}{}
 
 \titleformat{\subsubsection}
-{\normalfont\normalsize\bfseries}{\thesubsubsection}{0.4em}{}
+{\normalfont\normalsize\bfseries\raggedright}{\thesubsubsection}{0.4em}{}
 
 \numberwithin{equation}{section}
 
