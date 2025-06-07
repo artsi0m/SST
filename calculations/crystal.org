@@ -1,0 +1,12 @@
+* Calculating crystal load capacitance
+
+
+$C_1 = C_2 = 2 \cdot (C_L - C_{stray})$
+
+$C_L - C_{stray} = C_1 / 2$
+
+$C_{stray} = C_L - C_1 / 2$
+
+
+
+
