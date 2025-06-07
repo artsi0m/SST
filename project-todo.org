@@ -321,6 +321,7 @@ CLOCK: [2025-03-27 Чт 14:13]--[2025-03-27 Чт 14:17] =>  0:04
 
 **** Анализ патентных исследований
 :LOGBOOK:
+CLOCK: [2025-06-07 Sat 18:04]--[2025-06-07 Sat 18:37] =>  0:33
 CLOCK: [2025-05-04 Вс 17:56]--[2025-05-04 Вс 18:10] =>  0:14
 CLOCK: [2025-05-04 Вс 17:17]--[2025-05-04 Вс 17:27] =>  0:10
 :END:
@@ -329,9 +330,14 @@ https://worldwide.espacenet.com/patent/search?q=%22flight%20controller%22
 
 https://worldwide.espacenet.com/patent/search?f=cc%3Ain%3Dus%2Cru&q=nftxt%20%3D%20%22flight%20controller%22
 
-***** Патент 1
+(TI=("flight controller") multicopter) language:ENGLISH
 
-***** Патент 2
+***** Патент 1 / US10144527B2
+:LOGBOOK:
+CLOCK: [2025-06-07 Sat 18:37]--[2025-06-07 Sat 18:55] =>  0:18
+:END:
+
+***** Патент 2 / TW202504822A
 
 ***** Патент 3
 
