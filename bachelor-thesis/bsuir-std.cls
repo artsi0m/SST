@@ -42,9 +42,11 @@
 \RequirePackage{amsmath}
 \RequirePackage{unicode-math}
 
-\RequirePackage{url}
+
 
 \RequirePackage{tocbasic}
+\RequirePackage{url}
+\RequirePackage{hyperref} % Links in TOC
 
 \RequirePackage{setspace}
 
@@ -71,8 +73,8 @@
   beforeskip=0pt, % интервал
   linefill=\dotfill,
 ]{tocline}{section,subsection,subsubsection}
-
-
+% Спрятать ссылки в содержании
+\hypersetup{hidelinks}
 
 % Приложение Л. СТП-2024
 \geometry{left=30mm, top=20mm, right=15mm, bottom=20mm}
