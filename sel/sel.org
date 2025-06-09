@@ -10,7 +10,7 @@
 | C3                        | 100н                                   |   1 | https://www.chipdip.by/product0/8002523603         |
 | C4,C5                     | 22п SMD0805                            |   2 | https://www.chipdip.by/product0/8004700181         |
 | DA1                       | LM7805 TO220                           |   1 | https://www.chipdip.by/product/lm7805ct-inchange   |
-| DD1                       | ATMeaga328PU DIP-28                    |   1 | https://www.chipdip.by/product/atmega328p-p        |
+| DD1                       | ATMeaga328PU DIP-28                    |   1 | https://www.chipdip.by/product/atmega328p-pu       |
 | HA1                       | Зуммер пьезоэлектрический              |   1 | https://www.chipdip.by/product0/8008603196         |
 | HL1                       | Светодиод красный  3мм                 |   1 | https://belchip.by/product/?selected_product=36754 |
 | SA1                       | DPDT JS202011AQN                       |   1 | https://www.chipdip.by/product0/8017542278         |
