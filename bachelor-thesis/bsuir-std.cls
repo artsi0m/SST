@@ -166,22 +166,17 @@
 
   %% Убираем предупреждение о использовании команды \cyr из eskdx
   \RequirePackage{xecyr}
-  % Почему раньше был использован класс eskdx?
-  % Главным образом потом что он позволяет
-  % - Делать секции по ГОСТ 2.105-95
-  % - Писать спецификацию
-  % - Не подгружать пакет geometry, отступы уже в соответсвии с приложением Л СТП 
 
+  \setmathfont{Times New Roman}[math-style=upright]
 
-   \setmathfont{Times New Roman}
   
 \fi
 
 % Возможность вствлять формулы на русском
 % https://tex.stackexchange.com/a/201248
 %%%%%%%% 
-\DeclareSymbolFont{cyrletters}{\encodingdefault}{\familydefault}{m}{it}
-\newcommand{\makecyrmathletter}[1]{%
+\DeclareSymbolFont{cyrletters}{\encodingdefault}{\familydefault}{m}{sf}
+\newcommand{\makecyrmathletter}[1]{
   \begingroup\lccode`a=#1\lowercase{\endgroup
   \Umathcode`a}="0 \csname symcyrletters\endcsname\space #1
 }
