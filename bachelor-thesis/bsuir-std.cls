@@ -5,7 +5,7 @@
 %%% End:
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{bsuir-std}[2025/05/06 Class conforming to BSUIR standard]
+\ProvidesClass{bsuir-std}[2025/06/11 Class conforming to BSUIR standard]
 
 
 \LoadClass[a4paper,14pt]{extarticle}
@@ -121,17 +121,17 @@
 % https://tex.stackexchange.com/a/24783
 % https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/titlesec/titlesec.pdf
 \titleformat{\section}[block]
-{\normalfont\Large\bfseries\raggedright}{\thesection}{0.4em}{\MakeUppercase}
+{\normalfont\fontsize{16}{16}\bfseries\raggedright}{\thesection}{0.4em}{\MakeUppercase}
 
 \titleformat{name=\section,numberless}[block]
-{\normalfont\Large\bfseries\raggedright}{}{0.4em \centering}{\MakeUppercase}
+{\normalfont\fontsize{16}{16}\bfseries\raggedright}{}{0.4em \centering}{\MakeUppercase}
 
 
 \titleformat{\subsection}
-{\normalfont\large\bfseries\raggedright}{\thesubsection}{0.4em}{}
+{\normalfont\fontsize{14}{14}\bfseries\raggedright}{\thesubsection}{0.4em}{}
 
 \titleformat{\subsubsection}
-{\normalfont\normalsize\bfseries\raggedright}{\thesubsubsection}{0.4em}{}
+{\normalfont\fontsize{14}{14}\bfseries\raggedright}{\thesubsubsection}{0.4em}{}
 
 \numberwithin{equation}{section}
 
