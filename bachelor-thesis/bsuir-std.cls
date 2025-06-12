@@ -144,8 +144,12 @@
 
 \numberwithin{equation}{section}
 
-% Нумерация и подписи к рисункам
-\captionsetup[figure]{name={Рисунок},}
+% Нумерация и подписи к рисункам и таблицам
+\DeclareCaptionLabelSeparator{bsuir}{ -- }
+\captionsetup[table]{name={Таблица},
+  labelsep=bsuir}
+\captionsetup[figure]{name={Рисунок},
+  labelsep=bsuir}
 \numberwithin{figure}{section}
 
 % Команда \sloppy в LaTeX ослабляет требования к качеству выравнивания текста, 
@@ -209,6 +213,10 @@
 
   \setmathfont{Times New Roman}[math-style=upright]
 
+  % Автоматическая Замена `--` на endash
+  \RequirePackage{xesearch}
+  \UndoBoundary{-}
+  \SearchList{dash}{\textendash}{--}
   
 \fi
 
