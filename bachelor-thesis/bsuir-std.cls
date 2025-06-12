@@ -77,7 +77,14 @@
 \hypersetup{hidelinks}
 
 % Приложение Л. СТП-2024
-\geometry{left=30mm, top=20mm, right=15mm, bottom=20mm}
+
+\geometry{left=25mm, top=12mm, right=12mm, bottom=15mm}
+
+% если будет \geometry{left=30mm, top=20mm, right=15mm, bottom=20mm}
+% то слева будет 35mm  
+% справа будет 18mm  
+% сверху будет 28mm
+% снизу будет 25mm
 
 % СТП-2024 Пункт 2.1.1
 % «абзацный отступ – 1,25 см»
