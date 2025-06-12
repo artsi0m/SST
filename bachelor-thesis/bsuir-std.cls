@@ -159,20 +159,6 @@
 }
 \pagestyle{plain}
 
-% Возможность вствлять формулы на русском
-% https://tex.stackexchange.com/a/201248
-%%%%%%%% 
-\DeclareSymbolFont{cyrletters}{\encodingdefault}{\familydefault}{m}{sf}
-\newcommand{\makecyrmathletter}[1]{
-  \begingroup\lccode`a=#1\lowercase{\endgroup
-  \Umathcode`a}="0 \csname symcyrletters\endcsname\space #1
-}
-\count255="409
-\loop\ifnum\count255<"44F
-  \advance\count255 by 1
-  \makecyrmathletter{\count255}
-\repeat
-%%%%%%%% 
 
 \DeclareTblrTemplate{contfoot-text}{default}{}
 \DeclareTblrTemplate{capcont}{default}{Продолжение таблицы \thetable}
@@ -227,3 +213,17 @@
 \fi
 
 
+% Возможность вствлять формулы на русском
+% https://tex.stackexchange.com/a/201248
+%%%%%%%% 
+\DeclareSymbolFont{cyrletters}{\encodingdefault}{\familydefault}{m}{sf}
+\newcommand{\makecyrmathletter}[1]{
+  \begingroup\lccode`a=#1\lowercase{\endgroup
+  \Umathcode`a}="0 \csname symcyrletters\endcsname\space #1
+}
+\count255="409
+\loop\ifnum\count255<"44F
+  \advance\count255 by 1
+  \makecyrmathletter{\count255}
+\repeat
+%%%%%%%% 
