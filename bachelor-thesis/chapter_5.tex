@@ -67,12 +67,16 @@ $$ q_к = \frac{3,75}{0,0123} \sim 305 Вт/м² $$
     \end{equation}
 
 $$ q_з = \frac{3,75}{0,0113} \sim 332 Вт/м² $$
-\item Находится коэффициент $\vartheta_1$ в зависимости от удельной мощности корпуса блока:
+\item По графику из пособия ~\cite{Rotkop1976}. Находится коэффициент
+$\vartheta_1$ в зависимости от удельной мощности корпуса блока:
  %   
-\begin{equation}
-\vartheta_1 = 0,1472q_к - 0,2962 \cdot 10^{-3}q_к^2 + 0,3127 \cdot 10^{-6}q_к^2
-\end{equation}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.7]{Rotkop/Pic-4-6.png}
+  \caption{Зависимость перегрева корпуса от удельной мощности}
+\end{figure}
 
+$$\vartheta_1 = 27  $$
 \item Находится коэффициент $\vartheta_2$ в зависимости от удельной мощности нагретой среды:
 %
 \begin{equation}
