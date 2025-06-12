@@ -54,6 +54,8 @@
 
 \RequirePackage{lscape} % for rotated tables
 \RequirePackage{rotating}
+
+\RequirePackage{tabularray} % Для настройки таблиц
 %%%%%%%
 % СТП %
 %%%%%%%
@@ -171,6 +173,25 @@
   \makecyrmathletter{\count255}
 \repeat
 %%%%%%%% 
+
+\DeclareTblrTemplate{contfoot-text}{default}{}
+\DeclareTblrTemplate{capcont}{default}{Продолжение таблицы \thetable}
+
+% \DeclareTblrTemplate{caption-tag}{default}{Таблица~\thetable}
+\DeclareTblrTemplate{caption-sep}{default}{--}
+% \DeclareTblrTemplate{caption-text}{default}{\InsertTblrText{caption}}
+
+\DeclareTblrTemplate{caption}{default}{
+  {
+    \raggedright
+    \setlength\parindent{0mm}
+    \setlength\parskip{0mm}
+    \hangindent=6em
+    \hangafter=1
+    \UseTblrTemplate{caption-tag}{default} \UseTblrTemplate{caption-sep}{default} \UseTblrTemplate{caption-text}{default}
+    \par
+  }
+}
 
 
 %%%%%%%%%%%%%%%%%%%
