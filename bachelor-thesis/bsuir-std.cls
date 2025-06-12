@@ -150,6 +150,28 @@
 % чтобы предотвратить выход строк за правую границу (переполнение).
 \sloppy % Разрешает более свободные переносы 
 
+% Номера страницу снизу справа
+\renewpagestyle{plain}{%
+  \sethead{}{}{}  
+  \setfoot[\thepage][][]{}{}{\raisebox{2mm}\thepage}  
+}
+\pagestyle{plain}
+
+% Возможность вствлять формулы на русском
+% https://tex.stackexchange.com/a/201248
+%%%%%%%% 
+\DeclareSymbolFont{cyrletters}{\encodingdefault}{\familydefault}{m}{sf}
+\newcommand{\makecyrmathletter}[1]{
+  \begingroup\lccode`a=#1\lowercase{\endgroup
+  \Umathcode`a}="0 \csname symcyrletters\endcsname\space #1
+}
+\count255="409
+\loop\ifnum\count255<"44F
+  \advance\count255 by 1
+  \makecyrmathletter{\count255}
+\repeat
+%%%%%%%% 
+
 
 %%%%%%%%%%%%%%%%%%%
 % ifxetex section %
@@ -183,17 +205,4 @@
   
 \fi
 
-% Возможность вствлять формулы на русском
-% https://tex.stackexchange.com/a/201248
-%%%%%%%% 
-\DeclareSymbolFont{cyrletters}{\encodingdefault}{\familydefault}{m}{sf}
-\newcommand{\makecyrmathletter}[1]{
-  \begingroup\lccode`a=#1\lowercase{\endgroup
-  \Umathcode`a}="0 \csname symcyrletters\endcsname\space #1
-}
-\count255="409
-\loop\ifnum\count255<"44F
-  \advance\count255 by 1
-  \makecyrmathletter{\count255}
-\repeat
-%%%%%%%% 
+
