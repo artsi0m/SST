@@ -1,9 +1,3 @@
-%%% Local Variables:
-%%% coding: utf-8
-%%% mode: latex
-%%% TeX-engine: xetex
-%%% End:
-
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{bsuir-std}[2025/06/11 Class conforming to BSUIR standard]
 
