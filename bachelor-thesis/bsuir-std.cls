@@ -49,6 +49,7 @@
 
 \RequirePackage{longtable} % for long tables
 
+
 %%%%%%%
 % СТП %
 %%%%%%%
@@ -151,7 +152,7 @@
 \titleformat{\subsubsection}
 {\normalfont\fontsize{14}{14}\bfseries\raggedright}{\thesubsubsection}{0.4em}{}
 
-\numberwithin{equation}{section}
+
 
 % Нумерация и подписи к рисункам и таблицам
 \DeclareCaptionLabelSeparator{bsuir}{ -- }
@@ -165,7 +166,6 @@
 % Команда \sloppy в LaTeX ослабляет требования к качеству выравнивания текста, 
 % чтобы предотвратить выход строк за правую границу (переполнение).
 \sloppy % Разрешает более свободные переносы 
-
 
 % Sections in toc without numbers
 \newcommand*{\nsection}[1]{
