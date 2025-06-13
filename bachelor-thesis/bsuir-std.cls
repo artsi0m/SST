@@ -47,6 +47,8 @@
 \RequirePackage{lscape} % for rotated tables
 \RequirePackage{rotating}
 
+\RequirePackage{longtable} % for long tables
+
 %%%%%%%
 % СТП %
 %%%%%%%
@@ -65,7 +67,22 @@
 \DeclareTOCStyleEntries[
   beforeskip=0pt, % интервал
   linefill=\dotfill,
-]{tocline}{section,subsection,subsubsection}
+  ]{tocline}{section,subsection,subsubsection}
+
+\DeclareTOCStyleEntry[
+  indent=0em,
+  numwidth=0.8em,
+]{tocline}{section}
+\DeclareTOCStyleEntry[
+  indent=0.8em,
+  numwidth=1.5em,
+]{tocline}{subsection}
+\DeclareTOCStyleEntry[
+  indent=2.3em,
+  numwidth=2.2em,
+]{tocline}{subsubsection}
+
+
 % Спрятать ссылки в содержании
 \hypersetup{hidelinks}
 
