@@ -2,7 +2,7 @@
 \ProvidesClass{bsuir-std}[2025/06/11 Class conforming to BSUIR standard]
 
 
-\LoadClass[a4paper,14pt]{extarticle}
+\LoadClass[a4paper,fontsize=14pt]{scrartcl}% Use komascript class
 
 %%%%%%%%%%
 % Пакеты %
@@ -174,6 +174,7 @@
 }
 
 
+\addtokomafont{sectionentry}{\mdseries}
 %%%%%%%%%%%%%%%%%%%
 % ifxetex section %
 %%%%%%%%%%%%%%%%%%%
