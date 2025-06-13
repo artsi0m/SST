@@ -229,3 +229,11 @@
   \makecyrmathletter{\count255}
 \repeat
 %%%%%%%% 
+
+%%% Local Variables:
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-master: "main"
+%%% TeX-engine: xetex
+%%% LaTeX-biblatex-use-Biber: t
+%%% End:
