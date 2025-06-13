@@ -141,7 +141,8 @@
 {\normalfont\fontsize{16}{16}\bfseries\raggedright}{\thesection}{0.4em}{\MakeUppercase}
 
 \titleformat{name=\section,numberless}[block]
-{\normalfont\fontsize{16}{16}\bfseries\raggedright}{}{0.4em \centering}{\MakeUppercase}
+{\normalfont\fontsize{16}{16}\bfseries\filcenter}
+{}{0.4em}{\MakeUppercase}
 
 
 \titleformat{\subsection}
