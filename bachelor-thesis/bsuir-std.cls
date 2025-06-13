@@ -160,18 +160,18 @@
 \captionsetup[figure]{name={Рисунок},
   labelsep=bsuir}
 \numberwithin{figure}{section}
+\numberwithin{equation}{section}
 
 % Команда \sloppy в LaTeX ослабляет требования к качеству выравнивания текста, 
 % чтобы предотвратить выход строк за правую границу (переполнение).
 \sloppy % Разрешает более свободные переносы 
 
-% Номера страницу снизу справа
-\renewpagestyle{plain}{%
-  \sethead{}{}{}  
-  \setfoot[\thepage][][]{}{}{\raisebox{2mm}\thepage}  
-}
-\pagestyle{plain}
 
+% Sections in toc without numbers
+\newcommand*{\nsection}[1]{
+    \section*{#1}
+    \addcontentsline{toc}{section}{#1}
+}
 
 
 %%%%%%%%%%%%%%%%%%%
