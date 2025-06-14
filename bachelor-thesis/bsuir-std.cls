@@ -143,27 +143,47 @@
 % https://tex.stackexchange.com/a/24783
 % https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/titlesec/titlesec.pdf
 \titleformat{\section}[block]
-{\normalfont\fontsize{16}{16}\bfseries\raggedright}{\thesection}{0.4em}{\MakeUppercase}
+{\normalfont\fontsize{16}{16}\bfseries\raggedright}{\hspace{12.5mm}\thesection}{0.4em}{\MakeUppercase}
 
 \titleformat{name=\section,numberless}[block]
-{\normalfont\fontsize{16}{16}\bfseries\filcenter}
-{}{0.4em}{\MakeUppercase}
+{\normalfont\bfseries}{}{0.4em \centering}{\MakeUppercase}
 
 
 \titleformat{\subsection}
-{\normalfont\fontsize{14}{14}\bfseries\raggedright}{\thesubsection}{0.4em}{}
+{\normalfont\fontsize{14}{14}\bfseries\raggedright}
+{\hspace{12.5mm}\thesubsection}{0.4em}{}
 
 \titleformat{\subsubsection}
-{\normalfont\fontsize{14}{14}\bfseries\raggedright}{\thesubsubsection}{0.4em}{}
+{\normalfont\fontsize{14}{14}\bfseries\raggedright}
+{\hspace{12.5mm}\thesubsubsection}{0.4em}{}
 
+\titlespacing*{\section}
+{0pt}{18pt}{18pt}  % section: 18pt до/после
+
+\titlespacing*{\subsection}
+{0pt}{18pt}{18pt}  % subsection: 18pt до/после
+
+\titlespacing*{\subsubsection}
+{0pt}{18pt}{18pt}  % subsubsection: 18pt до/после
+
+\titlespacing*{name=\section,numberless}
+{0pt}{18pt}{18pt}  % безымянные секции: 18pt до/после
 
 
 % Нумерация и подписи к рисункам и таблицам
-\DeclareCaptionLabelSeparator{bsuir}{ -- }
 \captionsetup[table]{name={Таблица},
-  labelsep=bsuir}
-\captionsetup[figure]{name={Рисунок},
-  labelsep=bsuir}
+  labelsep=endash,
+  justification=raggedright,
+  skip=18pt,
+}
+
+\captionsetup[figure]{
+    name={Рисунок},
+    labelsep=endash,
+    justification=centering,
+    skip=18pt,
+}
+
 \numberwithin{figure}{section}
 \numberwithin{equation}{section}
 
