@@ -66,9 +66,12 @@
 % Look at comadocs for setting up toc
 % https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/koma-script/doc/scrguide-en.pdf
 \DeclareTOCStyleEntries[
-  beforeskip=0pt, % интервал
-  linefill=\dotfill,
-  ]{tocline}{section,subsection,subsubsection}
+  beforeskip=0pt,          % интервал перед записью
+  linefill=\dotfill,       % заполнитель в виде точек
+  entryformat=\normalfont, % обычное начертание текста
+  pagenumberformat=\normalfont, % обычное начертание номеров страниц
+]{tocline}{section,subsection,subsubsection}
+
 
 \DeclareTOCStyleEntry[
   indent=0em,
@@ -82,6 +85,7 @@
   indent=2.3em,
   numwidth=2.2em,
 ]{tocline}{subsubsection}
+
 
 
 % Спрятать ссылки в содержании
