@@ -49,10 +49,10 @@
 
 \RequirePackage{longtable} % for long tables
 
-
 %%%%%%%
 % СТП %
 %%%%%%%
+
 
 % интервал между строк
 % В СТП-2017 не оговорен, просто сказано в пункте 2.1.1
@@ -174,7 +174,11 @@
 }
 
 
-\addtokomafont{sectionentry}{\mdseries}
+
+
+\addtokomafont{sectionentry}{\mdseries} % TOC without bold
+
+
 %%%%%%%%%%%%%%%%%%%
 % ifxetex section %
 %%%%%%%%%%%%%%%%%%%
