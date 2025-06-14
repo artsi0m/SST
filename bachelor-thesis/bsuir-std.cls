@@ -169,14 +169,24 @@
 \titlespacing*{name=\section,numberless}
 {0pt}{18pt}{18pt}  % безымянные секции: 18pt до/после
 
-
-% Нумерация и подписи к рисункам и таблицам
-\captionsetup[table]{name={Таблица},
-  labelsep=endash,
-  justification=raggedright,
-  skip=18pt,
-}
-
+% Название таблиц  по стп 2024
+\DeclareCaptionFormat{bsuirtable}{%
+    \raggedright
+    \hangindent=6em% Отступ для последующих строк
+    \hangafter=1% Применять отступ после первой строки
+    #1#2#3%
+  }
+  
+\captionsetup[table]{
+    format=bsuirtable,
+    singlelinecheck=false,
+    labelsep=endash,
+    skip=1mm,
+    position=above,
+    parindent=0pt, % Убираем стандартный отступ
+  }
+  
+% Нумерация и подписи к рисункам и таблицам  
 \captionsetup[figure]{
     name={Рисунок},
     labelsep=endash,
