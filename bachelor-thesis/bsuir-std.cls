@@ -2,8 +2,8 @@
 \ProvidesClass{bsuir-std}[2025/06/11 Class conforming to BSUIR standard]
 
 
-\LoadClass[a4paper,fontsize=14pt]{scrartcl}% Use komascript class
 
+\LoadClass[a4paper,14pt]{extarticle}
 %%%%%%%%%%
 % Пакеты %
 %%%%%%%%%%
@@ -173,10 +173,15 @@
     \addcontentsline{toc}{section}{#1}
 }
 
+\renewpagestyle{plain}{%
+  \sethead{}{}{}  
+  \setfoot[\thepage][][]{}{}{\raisebox{2mm}\thepage}  
+}
+\pagestyle{plain}
 
 
 
-\addtokomafont{sectionentry}{\mdseries} % TOC without bold
+
 
 
 %%%%%%%%%%%%%%%%%%%
