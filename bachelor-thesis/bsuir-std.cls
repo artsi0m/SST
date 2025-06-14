@@ -207,6 +207,7 @@
     \addcontentsline{toc}{section}{#1}
 }
 
+
 \renewpagestyle{plain}{%
   \sethead{}{}{}  
   \setfoot[\thepage][][]{}{}{\raisebox{2mm}\thepage}  

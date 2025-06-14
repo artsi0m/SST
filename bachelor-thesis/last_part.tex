@@ -89,15 +89,27 @@ KiCAD и AutoCAD.
 
 \newpage
 
-
+\captionsetup[table]{
+    format=bsuirtable,
+    singlelinecheck=false,
+    labelsep=endash,
+    skip=1mm,
+    position=above,
+    parindent=0pt, % Убираем стандартный отступ
+    labelformat=empty, % Не нумеруем таблицы автоматически, подписываем вручную.
+  }
+  
 % Приложение А
 \begin{center}
 \textbf{Приложение А}\\
 \textbf{(обязательное)}\\
 \textbf{Отчет о проверке на заимствования в системе «Антиплагиат»}
 \end{center}
+
 \addcontentsline{toc}{section}{Приложение А (обязательное) Отчет о проверке на заимствования в системе «Антиплагиат»}
+
 \newpage
+
 
 % Приложение Б
 \begin{center}
@@ -107,7 +119,6 @@ KiCAD и AutoCAD.
 \end{center}
 \addcontentsline{toc}{section}{Приложение Б (обязательное) справка о результатах патентных исследований}
 \newpage
- 
 
 % Приложение В
 \begin{center}
@@ -144,8 +155,12 @@ KiCAD и AutoCAD.
 \end{center}
 \addcontentsline{toc}{section}{Приложение Е (обязательное) листинги результатов моделирования и расчетов}
 
+  
+
+ 
 \begin{table}[H]
   \centering
+  \caption{Таблица E.1 – Значения частот полученные в результате моделирования в SolidWorks Simulation}
   \begin{tabular}{|l | r |}
     \hline
     Вариант моделирования & Значение частоты \\ \hline
