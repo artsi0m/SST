@@ -46,9 +46,11 @@
 $9,76 \cdot 10^9$
 
 ** Коэффициент Kа
-1413,37
+22,36
+https://www.wolframalpha.com/input?i2d=true&i=9.87Power%5B%5C%2840%291+%2B+2Divide%5BPower%5B90%2C2%5D%2CPower%5B80%2C2%5D%5D%2BDivide%5BPower%5B90%2C4%5D%2CPower%5B80%2C4%5D%5D%5C%2841%29%2CDivide%5B1%2C2%5D%5D
 
-https://www.wolframalpha.com/input?i2d=true&i=9.87Power%5B%5C%2840%291+%2B+2Divide%5BPower%5B90%2C4%5D%2CPower%5B80%2C2%5D%5D%2BDivide%5BPower%5B90%2C4%5D%2CPower%5B80%2C4%5D%5D%5C%2841%29%2CDivide%5B1%2C2%5D%5D
+
 
 ** Частота f_0
-https://www.wolframalpha.com/input?i2d=true&i=Divide%5B1%2C2pi%5D*Divide%5B1413.37%2CPower%5B90%2C2%5D%5DSqrt%5BDivide%5B9.76*Power%5B10%2C9%5D%2C186%5D*90*80%5D
+https://www.wolframalpha.com/input?i2d=true&i=Divide%5B1%2C2pi%5D*Divide%5B22.36%2CPower%5B90%2C2%5D%5DSqrt%5BDivide%5B9.76*Power%5B10%2C9%5D%2C186%5D*90*80%5D
+
